@@ -45,7 +45,7 @@ In this example, user input `name` is directly embedded into the template, makin
 Before exploiting SSTI, it's crucial to identify the template engine in use. Clues can be found through:
 
 - Error messages revealing the template engine.
-- Syntax used in the templates (e.g., `{{ }}`, `{% %}`, `${ }`).
+- Syntax used in the templates (e.g., <code v-pre>{{ }}</code>, `{% %}`, `${ }`).
 
 ### **Exploitation Examples**
 
@@ -78,8 +78,8 @@ Before exploiting SSTI, it's crucial to identify the template engine in use. Clu
 
 ### **Manual Testing**
 
-- **Inject Common SSTI Payloads:** Use payloads like `{{7*7}}`, `${{7*7}}`, `#{7*7}` in input fields to check for code
-  execution.
+- **Inject Common SSTI Payloads:** Use payloads like <code v-pre>{{7*7}}</code>, `${7*7}`, `#{7*7}` in input fields to
+  check for code execution.
 
 - **Observe Responses:** If the server responds with evaluated expressions (e.g., `49`), SSTI is likely present.
 
