@@ -90,3 +90,7 @@ We successfully retrieved the flag! You can now try this on the actual Hack The 
 flag.
 
 ![Spookifier - Flag](/ctf/hack-the-box/challenges/web/spookifier/spookifier-pwned.png)
+
+## References
+
+- [HackTricks - Jinja2 SSTI](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection/jinja2-ssti#jinja-injection)
