@@ -47,7 +47,7 @@ export default defineConfig({
             });
         }
 
-        writeFileSync(path.join(config.srcDir, "feed.xml"), feed.rss2());
+        writeFileSync(path.join(config.srcDir, "feed.rss"), feed.rss2());
     },
     srcDir: "src",
     themeConfig: {
