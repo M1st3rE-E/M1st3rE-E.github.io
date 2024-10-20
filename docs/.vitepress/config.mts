@@ -1,13 +1,58 @@
-import { defineConfig } from "vitepress";
+import path from "path";
+import { Feed } from "feed";
+import { writeFileSync } from "fs";
+import { createContentLoader, defineConfig, type SiteConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
+const hostname: string = "https://retherszu.github.io";
+
 export default defineConfig({
     title: "Pentest Everything",
     description: "A VitePress Site",
+    ignoreDeadLinks: true,
+    buildEnd: async (config: SiteConfig) => {
+        const feed = new Feed({
+            title: "Rether szu",
+            description: "My personal blog",
+            id: hostname,
+            link: hostname,
+            language: "en",
+            image: "/logo.jpg",
+            copyright: "Copyright (c) 2024-present, Rether Szu",
+        });
+
+        const posts = await createContentLoader("ctf/**/*.md", {
+            excerpt: true,
+            render: true,
+        }).load();
+
+        posts.sort(
+            (a, b) =>
+                +new Date(b.frontmatter.date as string) -
+                +new Date(a.frontmatter.date as string),
+        );
+
+        for (const { url, excerpt, frontmatter, html } of posts) {
+            feed.addItem({
+                title: frontmatter.title,
+                id: `${hostname}${url}`,
+                link: `${hostname}${url}`,
+                description: excerpt,
+                author: [
+                    {
+                        name: "Rether Szu",
+                        link: "https://github.com/RetherSzu",
+                    },
+                ],
+                date: frontmatter.date,
+            });
+        }
+
+        writeFileSync(path.join(config.srcDir, "feed.xml"), feed.rss2());
+    },
+    outDir: "dist",
     srcDir: "src",
     themeConfig: {
         logo: "/logo.jpg",
-        // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "Home", link: "/" },
         ],
@@ -30,12 +75,12 @@ export default defineConfig({
                                         link: "/ctf/hack-the-box/challenges/web",
                                         items: [
                                             { text: "Gunship", link: "/ctf/hack-the-box/challenges/web/gunship" },
-                                        ]
+                                        ],
                                     },
-                                ]
+                                ],
                             },
 
-                        ]
+                        ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
                     // { text: "Reconnaissance", link: "/reconnaissance" },
@@ -54,10 +99,10 @@ export default defineConfig({
                         link: "/vulnerabilities/web",
                         items: [
                             { text: "Prototype Pollution", link: "/vulnerabilities/web/prototype-pollution" },
-                        ]
+                        ],
                     },
-                ]
-            }
+                ],
+            },
         ],
 
         socialLinks: [

@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "feed": "^4.2.2",
     "vitepress": "^1.4.1"
   }
 }

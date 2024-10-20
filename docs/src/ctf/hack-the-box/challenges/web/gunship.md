@@ -1,3 +1,9 @@
+---
+title: My awesome post title
+description: My awesome post description
+date: 2024-10-20
+---
+
 # Gunship
 
 ![Gunship](/ctf/hack-the-box/challenges/web/gunship/gunship.gif)
