@@ -25,15 +25,15 @@ export default defineConfig({
             render: true,
         }).load();
 
-        posts.sort(
+        const filterdPosts = posts.filter((post) => post.frontmatter?.date !== undefined);
+
+        filterdPosts.sort(
             (a, b) =>
                 +new Date(b.frontmatter.date as string) -
                 +new Date(a.frontmatter.date as string),
         );
 
-        console.log(posts.length);
-
-        for (const { url, excerpt, frontmatter, html } of posts) {
+        for (const { url, excerpt, frontmatter, html } of filterdPosts) {
             feed.addItem({
                 title: frontmatter.title,
                 id: `${hostname}${url}`,
