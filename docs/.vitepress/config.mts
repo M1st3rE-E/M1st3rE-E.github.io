@@ -31,6 +31,8 @@ export default defineConfig({
                 +new Date(a.frontmatter.date as string),
         );
 
+        console.log(posts.length);
+
         for (const { url, excerpt, frontmatter, html } of posts) {
             feed.addItem({
                 title: frontmatter.title,
