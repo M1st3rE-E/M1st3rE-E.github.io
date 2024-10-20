@@ -17,6 +17,7 @@ export default defineConfig({
             link: hostname,
             language: "en",
             image: "/logo.jpg",
+            favicon: "/favicon.ico",
             copyright: "Copyright (c) 2024-present, Rether Szu",
         });
 
