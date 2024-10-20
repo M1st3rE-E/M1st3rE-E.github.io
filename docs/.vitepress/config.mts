@@ -34,7 +34,7 @@ export default defineConfig({
                 +new Date(a.frontmatter.date as string),
         );
 
-        for (const { url, excerpt, frontmatter, html } of filterdPosts) {
+        for (const { url, excerpt, frontmatter } of filterdPosts) {
             feed.addItem({
                 title: frontmatter.title,
                 id: `${hostname}${url}`,
@@ -77,6 +77,7 @@ export default defineConfig({
                                         link: "/ctf/hack-the-box/challenges/web",
                                         items: [
                                             { text: "Gunship", link: "/ctf/hack-the-box/challenges/web/gunship" },
+                                            { text: "Spookifier", link: "/ctf/hack-the-box/challenges/web/spookifier" },
                                         ],
                                     },
                                 ],
