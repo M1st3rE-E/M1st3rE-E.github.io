@@ -1,0 +1,8 @@
+# Node module
+node_modules
+
+# Idea
+.idea
+
+# Vitpress cache
+docs/.vitpress/cache
