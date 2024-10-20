@@ -1,6 +1,5 @@
 ---
-title: My awesome post title
-description: My awesome post description
+title: Gunship - Hack The Box
 date: 2024-10-20
 ---
 
