@@ -99,9 +99,9 @@ export default defineConfig({
                     {
                         text: "Web",
                         collapsed: true,
-                        link: "/vulnerabilities/web",
                         items: [
                             { text: "Prototype Pollution", link: "/vulnerabilities/web/prototype-pollution" },
+                            { text: "Server-Side Template Injection (SSTI)", link: "/vulnerabilities/web/server-side-template-injection" },
                         ],
                     },
                 ],
