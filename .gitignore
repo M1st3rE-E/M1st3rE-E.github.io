@@ -5,4 +5,4 @@ node_modules
 .idea
 
 # Vitpress cache
-docs/.vitpress/cache/
+docs/.vitepress/cache/
