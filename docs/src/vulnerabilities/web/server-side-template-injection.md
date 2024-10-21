@@ -45,7 +45,7 @@ In this example, user input `name` is directly embedded into the template, makin
 Before exploiting SSTI, it's crucial to identify the template engine in use. Clues can be found through:
 
 - Error messages revealing the template engine.
-- Syntax used in the templates (e.g., <code v-pre>{{ }}</code>, `{% %}`, `${ }`).
+- Syntax used in the templates (e.g., <code v-pre>{{ }}</code>, <code v-pre>{% %}</code>, `${ }`).
 
 ### **Exploitation Examples**
 
