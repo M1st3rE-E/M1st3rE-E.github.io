@@ -1,3 +1,8 @@
+---
+title: Insomnia - Hack The Box
+date: 2024-10-23
+---
+
 # Insomnia
 
 ![Insomnia - thumbnail](/ctf/hack-the-box/challenges/web/insomnia/insomnia-thumbnail.gif)
