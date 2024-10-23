@@ -10,3 +10,8 @@ you to test your penetration testing skills.
 ### Very Easy
 
 - [Gunship](./gunship)
+- [Spookifier](./spookifier)
+
+### Easy
+
+- [PDFy](./pdfy)
