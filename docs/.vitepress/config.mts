@@ -84,7 +84,6 @@ export default defineConfig({
                                     },
                                 ],
                             },
-
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
@@ -104,6 +103,7 @@ export default defineConfig({
                         items: [
                             { text: "Prototype Pollution", link: "/vulnerabilities/web/prototype-pollution" },
                             { text: "Server-Side Template Injection (SSTI)", link: "/vulnerabilities/web/server-side-template-injection" },
+                            { text: "Server-Side Request Forgery (SSRF)", link: "/vulnerabilities/web/server-side-request-forgery" },
                         ],
                     },
                 ],
