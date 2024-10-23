@@ -15,3 +15,4 @@ you to test your penetration testing skills.
 ### Easy
 
 - [PDFy](./pdfy)
+- [Insomnia](./insomnia)
