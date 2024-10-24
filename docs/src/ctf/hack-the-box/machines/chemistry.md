@@ -51,7 +51,7 @@ After registering and logging in, we land on the dashboard, where users can uplo
 
 The website provides a sample CIF file:
 
-```cif
+```
 data_Example
 _cell_length_a    10.00000
 _cell_length_b    10.00000
