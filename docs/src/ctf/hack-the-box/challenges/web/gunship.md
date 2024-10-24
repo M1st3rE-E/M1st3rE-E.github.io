@@ -80,8 +80,6 @@ into the `artist` object’s prototype. This can lead to remote code execution (
 We will use Python to craft and send a malicious payload to the vulnerable `/api/submit` endpoint, injecting a `block`
 object into the prototype of the `artist` object. This injected object will execute system commands on the server.
 
-### Exploit Code:
-
 ```python
 import requests
 
@@ -99,7 +97,7 @@ r = requests.post(url, json=payload)
 print(r.json())
 ```
 
-### Explanation of the Payload:
+### Explanation of the Payload
 
 - **Prototype Injection**: The payload injects the `block` object into the prototype of the `artist` object using the
   `__proto__` property.
@@ -108,7 +106,7 @@ print(r.json())
   with `flag` (`cat flag*`), typically containing the challenge flag.
 - **Why `$()`?**: The `$()` syntax ensures that the command (`cat flag*`) is evaluated and executed by the system.
 
-### Result:
+### Result of the Exploit
 
 After sending the crafted payload, the server returns the following response:
 
