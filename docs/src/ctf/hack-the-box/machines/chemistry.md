@@ -85,7 +85,7 @@ We exploit the **pymatgen** vulnerability by crafting a CIF file that triggers a
 
 Here’s the payload:
 
-```cif
+```
 data_Example
 _cell_length_a    10.00000
 _cell_length_b    10.00000
