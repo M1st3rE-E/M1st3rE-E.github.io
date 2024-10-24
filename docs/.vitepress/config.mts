@@ -58,7 +58,9 @@ export default defineConfig({
         nav: [
             { text: "Home", link: "/" },
         ],
-
+        outline: {
+            level: [1, 3],
+        },
         sidebar: [
             {
                 text: "Penetration Testing",
@@ -82,6 +84,13 @@ export default defineConfig({
                                             { text: "Insomnia", link: "/ctf/hack-the-box/challenges/web/insomnia" },
                                         ],
                                     },
+                                ],
+                            },
+                            {
+                                text: "Machines",
+                                collapsed: true,
+                                items: [
+                                    { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
                                 ],
                             },
                         ],
