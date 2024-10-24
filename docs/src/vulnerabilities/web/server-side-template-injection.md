@@ -1,4 +1,4 @@
-# **Pentest Documentation: Server-Side Template Injection (SSTI)**
+# **Server-Side Template Injection (SSTI)**
 
 ## **Introduction**
 
