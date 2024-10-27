@@ -82,6 +82,7 @@ export default defineConfig({
                                             { text: "Spookifier", link: "/ctf/hack-the-box/challenges/web/spookifier" },
                                             { text: "PDFy", link: "/ctf/hack-the-box/challenges/web/pdfy" },
                                             { text: "Insomnia", link: "/ctf/hack-the-box/challenges/web/insomnia" },
+                                            { text: "Breathtaking View", link: "/ctf/hack-the-box/challenges/web/breathtaking-view" },
                                         ],
                                     },
                                 ],
