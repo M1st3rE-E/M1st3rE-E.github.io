@@ -1,19 +1,6 @@
 ---
 title: Breathtaking View - Hack The Box
 date: 2024-10-27
-head:
-    -   - meta
-        -   name: og:image
-            content: /ctf/hack-the-box/challenges/web/breathtaking-view/thumbnail.jpg
-    -   - meta
-        -   name: og:description
-            content: Check out my new website showcasing a breathtaking view—let's hope no one can 'manipulate' it!
-    -   - meta
-        -   name: og:title
-            content: Breathtaking View - Hack The Box
-    -   - meta
-        -   name: og:url
-            content: /ctf/hack-the-box/challenges/web/breathtaking-view
 ---
 
 # Breathtaking View
