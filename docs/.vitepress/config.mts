@@ -83,6 +83,7 @@ export default defineConfig({
                                             { text: "PDFy", link: "/ctf/hack-the-box/challenges/web/pdfy" },
                                             { text: "Insomnia", link: "/ctf/hack-the-box/challenges/web/insomnia" },
                                             { text: "Breathtaking View", link: "/ctf/hack-the-box/challenges/web/breathtaking-view" },
+                                            { text: "POP Restaurant", link: "/ctf/hack-the-box/challenges/web/pop-restaurant" },
                                         ],
                                     },
                                 ],
