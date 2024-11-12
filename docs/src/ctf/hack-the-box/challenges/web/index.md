@@ -16,3 +16,6 @@ you to test your penetration testing skills.
 
 - [PDFy](./pdfy)
 - [Insomnia](./insomnia)
+- [Breathtaking View](./breathtaking-view)
+- [Pop Restaurant](./pop-restaurant)
+- [Pentest Notes](./pentest-notes)

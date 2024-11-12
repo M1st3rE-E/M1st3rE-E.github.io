@@ -9,6 +9,11 @@ export default defineConfig({
     title: "Pentest Everything",
     description: "A VitePress Site",
     ignoreDeadLinks: true,
+    markdown: {
+        image: {
+            lazyLoading: true,
+        },
+    },
     buildEnd: async (config: SiteConfig) => {
         const feed = new Feed({
             title: "Rether szu",
@@ -84,6 +89,7 @@ export default defineConfig({
                                             { text: "Insomnia", link: "/ctf/hack-the-box/challenges/web/insomnia" },
                                             { text: "Breathtaking View", link: "/ctf/hack-the-box/challenges/web/breathtaking-view" },
                                             { text: "POP Restaurant", link: "/ctf/hack-the-box/challenges/web/pop-restaurant" },
+                                            { text: "Pentest Notes", link: "/ctf/hack-the-box/challenges/web/pentest-notes" },
                                         ],
                                     },
                                 ],
