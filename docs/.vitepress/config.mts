@@ -90,6 +90,7 @@ export default defineConfig({
                                             { text: "Breathtaking View", link: "/ctf/hack-the-box/challenges/web/breathtaking-view" },
                                             { text: "POP Restaurant", link: "/ctf/hack-the-box/challenges/web/pop-restaurant" },
                                             { text: "Pentest Notes", link: "/ctf/hack-the-box/challenges/web/pentest-notes" },
+                                            { text: "JScalc", link: "/ctf/hack-the-box/challenges/web/jscalc" },
                                         ],
                                     },
                                 ],
