@@ -14,6 +14,7 @@ export default defineConfig({
             lazyLoading: true,
         },
     },
+    lastUpdated: true,
     buildEnd: async (config: SiteConfig) => {
         const feed = new Feed({
             title: "Rether szu",
@@ -120,8 +121,15 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             { text: "Prototype Pollution", link: "/vulnerabilities/web/prototype-pollution" },
-                            { text: "Server-Side Template Injection (SSTI)", link: "/vulnerabilities/web/server-side-template-injection" },
-                            { text: "Server-Side Request Forgery (SSRF)", link: "/vulnerabilities/web/server-side-request-forgery" },
+                            {
+                                text: "Server-Side Template Injection (SSTI)",
+                                collapsed: true,
+                                link: "/vulnerabilities/web/server-side-template-injection",
+                                items: [
+                                    { text: "Jinja2 (Python)", link: "/vulnerabilities/web/server-side-template-injection/ssti-in-jinja2" },
+                                ],
+                            },
+                            { text: "Server-Side Request Forgery (SSRF)", link: "/vulnerabilities/web/server-side-request-forgery"},
                         ],
                     },
                 ],
