@@ -18,6 +18,8 @@ trajectory calculations to deep-sea math. Attempt to outsmart it at your own ris
 The challenge presents us with a web application that features a JavaScript calculator. Users can input formulas, which
 the application evaluates and returns the result.
 
+![JScalc - calculator](/ctf/hack-the-box/challenges/web/jscalc/home.png)
+
 ### How it works
 
 Clicking the **Calculate** button sends a `POST` request to the `/api/calculate` endpoint, where the following
