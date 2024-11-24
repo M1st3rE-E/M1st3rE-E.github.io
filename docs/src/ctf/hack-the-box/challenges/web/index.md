@@ -19,3 +19,5 @@ you to test your penetration testing skills.
 - [Breathtaking View](./breathtaking-view)
 - [Pop Restaurant](./pop-restaurant)
 - [Pentest Notes](./pentest-notes)
+- [JScalc](./jscalc)
+- [Proxy as a Service](./proxy-as-a-service)

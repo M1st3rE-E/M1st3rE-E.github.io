@@ -61,9 +61,6 @@ export default defineConfig({
     srcDir: "src",
     themeConfig: {
         logo: "/logo.jpg",
-        nav: [
-            { text: "Home", link: "/" },
-        ],
         outline: {
             level: [1, 3],
         },
@@ -83,6 +80,7 @@ export default defineConfig({
                                         text: "Web",
                                         collapsed: true,
                                         link: "/ctf/hack-the-box/challenges/web",
+                                        // @formatter:off
                                         items: [
                                             { text: "Gunship", link: "/ctf/hack-the-box/challenges/web/gunship" },
                                             { text: "Spookifier", link: "/ctf/hack-the-box/challenges/web/spookifier" },
@@ -92,7 +90,9 @@ export default defineConfig({
                                             { text: "POP Restaurant", link: "/ctf/hack-the-box/challenges/web/pop-restaurant" },
                                             { text: "Pentest Notes", link: "/ctf/hack-the-box/challenges/web/pentest-notes" },
                                             { text: "JScalc", link: "/ctf/hack-the-box/challenges/web/jscalc" },
+                                            { text: "Proxy As A Service", link: "/ctf/hack-the-box/challenges/web/proxy-as-a-service" },
                                         ],
+                                        // @formatter:on
                                     },
                                 ],
                             },
@@ -126,12 +126,23 @@ export default defineConfig({
                                 collapsed: true,
                                 link: "/vulnerabilities/web/server-side-template-injection",
                                 items: [
-                                    { text: "Jinja2 (Python)", link: "/vulnerabilities/web/server-side-template-injection/ssti-in-jinja2" },
+                                    {
+                                        text: "Jinja2 (Python)",
+                                        link: "/vulnerabilities/web/server-side-template-injection/ssti-in-jinja2",
+                                    },
                                 ],
                             },
-                            { text: "Server-Side Request Forgery (SSRF)", link: "/vulnerabilities/web/server-side-request-forgery"},
+                            // @formatter:off
+                            { text: "Server-Side Request Forgery (SSRF)", link: "/vulnerabilities/web/server-side-request-forgery", },
+                            // @formatter:on
                         ],
                     },
+                ],
+            },
+            {
+                text: "Tools",
+                items: [
+                    { text: "Url encoding", link: "/tools/url-encoding" },
                 ],
             },
         ],
