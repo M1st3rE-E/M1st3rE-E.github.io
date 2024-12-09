@@ -91,6 +91,7 @@ export default defineConfig({
                                             { text: "Pentest Notes", link: "/ctf/hack-the-box/challenges/web/pentest-notes" },
                                             { text: "JScalc", link: "/ctf/hack-the-box/challenges/web/jscalc" },
                                             { text: "Proxy As A Service", link: "/ctf/hack-the-box/challenges/web/proxy-as-a-service" },
+                                            { text: "Apache blaze", link: "/ctf/hack-the-box/challenges/web/apache-blaze" },
                                         ],
                                         // @formatter:on
                                     },
