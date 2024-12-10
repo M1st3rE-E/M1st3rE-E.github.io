@@ -34,17 +34,17 @@ with the `[P]` flag indicating proxying. `ProxyPassReverse` adjusts response hea
 
 ### Python Application (`app.py`)
 
-  ```python
-  elif game == 'click_topia':
-      if request.headers.get('X-Forwarded-Host') == 'dev.apacheblaze.local':
-          return jsonify({
-              'message': f'{app.config["FLAG"]}'
-          }), 200
-      else:
-          return jsonify({
-              'message': 'This game is currently available only from dev.apacheblaze.local.'
-          }), 200
-  ```
+```python
+elif game == 'click_topia':
+   if request.headers.get('X-Forwarded-Host') == 'dev.apacheblaze.local':
+       return jsonify({
+           'message': f'{app.config["FLAG"]}'
+       }), 200
+   else:
+       return jsonify({
+           'message': 'This game is currently available only from dev.apacheblaze.local.'
+       }), 200
+```
 
 The application checks if the `game` parameter is `'click_topia'` and if the `X-Forwarded-Host` header equals
 `'dev.apacheblaze.local'`. If both conditions are met, it returns a JSON response containing the flag.
@@ -82,7 +82,7 @@ back-end to misinterpret the request.
 
    ```json
    {
-       "message": "HTB{1t5_4ll_4b0ut_Th3_Cl1ck5}"
+       "message": "HTB{f4k3_fl4g_f0r_t3st1ng}"
    }
    ```
 
