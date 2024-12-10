@@ -92,6 +92,7 @@ export default defineConfig({
                                             { text: "JScalc", link: "/ctf/hack-the-box/challenges/web/jscalc" },
                                             { text: "Proxy As A Service", link: "/ctf/hack-the-box/challenges/web/proxy-as-a-service" },
                                             { text: "Apache blaze", link: "/ctf/hack-the-box/challenges/web/apache-blaze" },
+                                            { text: "Flag Command", link: "/ctf/hack-the-box/challenges/web/flag-command" },
                                         ],
                                         // @formatter:on
                                     },
