@@ -93,6 +93,7 @@ export default defineConfig({
                                             { text: "Proxy As A Service", link: "/ctf/hack-the-box/challenges/web/proxy-as-a-service" },
                                             { text: "Apache blaze", link: "/ctf/hack-the-box/challenges/web/apache-blaze" },
                                             { text: "Flag Command", link: "/ctf/hack-the-box/challenges/web/flag-command" },
+                                            { text: "WayWitch", link: "/ctf/hack-the-box/challenges/web/way-witch" },
                                         ],
                                         // @formatter:on
                                     },
