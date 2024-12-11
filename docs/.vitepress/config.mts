@@ -95,6 +95,7 @@ export default defineConfig({
                                             { text: "Flag Command", link: "/ctf/hack-the-box/challenges/web/flag-command" },
                                             { text: "WayWitch", link: "/ctf/hack-the-box/challenges/web/way-witch" },
                                             { text: "Void Whispers", link: "/ctf/hack-the-box/challenges/web/void-whispers" },
+                                            { text: "Unholy Union", link: "/ctf/hack-the-box/challenges/web/unholy-union" },
                                         ],
                                         // @formatter:on
                                     },
