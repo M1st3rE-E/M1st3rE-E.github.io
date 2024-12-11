@@ -1,23 +1,19 @@
 # Hack the Box - Challenges - Web
 
-## Introduction
+This section contains write-ups for web challenges on Hack The Box.
 
-This is a collection of write-ups for the Web challenges of Hack the Box, a popular online platform that allows
-you to test your penetration testing skills.
-
-## Challenges
-
-### Very Easy
-
-- [Gunship](./gunship)
-- [Spookifier](./spookifier)
-
-### Easy
-
-- [PDFy](./pdfy)
-- [Insomnia](./insomnia)
-- [Breathtaking View](./breathtaking-view)
-- [Pop Restaurant](./pop-restaurant)
-- [Pentest Notes](./pentest-notes)
-- [JScalc](./jscalc)
-- [Proxy as a Service](./proxy-as-a-service)
+|  #  | Challenge                                                                                  | Difficulty | Write-up                    |
+|:---:|--------------------------------------------------------------------------------------------|------------|-----------------------------|
+| 808 | [Void Whispers](https://app.hackthebox.com/challenges/Void%2520Whispers)                   | Very Easy  | [...](./void-whispers)      |
+| 807 | [WayWitch](https://app.hackthebox.com/challenges/WayWitch)                                 | Very Easy  | [...](./way-witch)          |
+| 772 | [Pentest Notes](https://app.hackthebox.com/challenges/Pentest%2520Notes)                   | Easy       | [...](./pentest-notes)      |
+| 770 | [Pop Restaurant](https://app.hackthebox.com/challenges/Pop%2520Restaurant)                 | Easy       | [...](./pop-restaurant)     |
+| 767 | [Breathtaking View](https://app.hackthebox.com/challenges/Breathtaking%2520View)           | Easy       | [...](./breathtaking-view)  |
+| 637 | [PDFy](https://app.hackthebox.com/challenges/PDFy)                                         | Easy       | [...](./pdfy)               |
+| 610 | [Insomnia](https://app.hackthebox.com/challenges/Insomnia)                                 | Easy       | [...](./insomnia)           |
+| 646 | [Flag Command](https://app.hackthebox.com/challenges/Flag%2520Command)                     | Very Easy  | [...](./flag-command)       |
+| 551 | [JScalc](https://app.hackthebox.com/challenges/JScalc)                                     | Easy       | [...](./jscalc)             |
+| 549 | [Proxy as a Service](https://app.hackthebox.com/challenges/Proxy%2520as%2520a%2520Service) | Easy       | [...](./proxy-as-a-service) |
+| 546 | [Apache Blaze](https://app.hackthebox.com/challenges/ApacheBlaze)                          | Easy       | [...](./apache-blaze)       |
+| 413 | [Spookifier](https://app.hackthebox.com/challenges/Spookifier)                             | Very Easy  | [...](./spookifier)         |
+| 245 | [Gunship](https://app.hackthebox.com/challenges/Gunship)                                   | Very Easy  | [...](./gunship)            |
