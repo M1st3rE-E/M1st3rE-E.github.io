@@ -1,6 +1,6 @@
 ---
 title: WayWitch - Hack The Box
-date: 2024-12-09
+date: 2024-12-10
 ---
 
 # WayWitch
