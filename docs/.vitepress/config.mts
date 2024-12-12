@@ -149,6 +149,7 @@ export default defineConfig({
                 text: "Tools",
                 items: [
                     { text: "Url encoding", link: "/tools/url-encoding" },
+                    { text: "Base64 encoding", link: "/tools/base64-encoding" },
                 ],
             },
         ],
