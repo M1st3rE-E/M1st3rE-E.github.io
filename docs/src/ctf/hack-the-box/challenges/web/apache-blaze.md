@@ -86,6 +86,10 @@ back-end to misinterpret the request.
    }
    ```
 
+With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
+
+![Apache Blaze - pwned](/ctf/hack-the-box/challenges/web/apache-blaze/pwned.png)
+
 ## References
 
 - [HTTP Request Smuggling - PortSwigger](https://portswigger.net/web-security/request-smuggling)

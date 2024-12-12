@@ -4,6 +4,7 @@ This section contains write-ups for web challenges on Hack The Box.
 
 |  #  | Challenge                                                                                  | Difficulty | Write-up                    |
 |:---:|--------------------------------------------------------------------------------------------|------------|-----------------------------|
+| 810 | [Phantom Script](https://app.hackthebox.com/challenges/Phantom%2520Script)                 | Very Easy  | [...](./phantom-script)     |
 | 809 | [Unholy Union](https://app.hackthebox.com/challenges/Unholy%2520Union)                     | Very Easy  | [...](./unholy-union)       |
 | 808 | [Void Whispers](https://app.hackthebox.com/challenges/Void%2520Whispers)                   | Very Easy  | [...](./void-whispers)      |
 | 807 | [WayWitch](https://app.hackthebox.com/challenges/WayWitch)                                 | Very Easy  | [...](./way-witch)          |
