@@ -97,6 +97,7 @@ export default defineConfig({
                                             { text: "Void Whispers", link: "/ctf/hack-the-box/challenges/web/void-whispers" },
                                             { text: "Unholy Union", link: "/ctf/hack-the-box/challenges/web/unholy-union" },
                                             { text: "Phantom Script", link: "/ctf/hack-the-box/challenges/web/phantom-script" },
+                                            { text: "KORP Terminal", link: "/ctf/hack-the-box/challenges/web/korp-terminal" },
                                         ],
                                         // @formatter:on
                                     },
