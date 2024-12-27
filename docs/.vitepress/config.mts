@@ -99,6 +99,7 @@ export default defineConfig({
                                             { text: "Phantom Script", link: "/ctf/hack-the-box/challenges/web/phantom-script" },
                                             { text: "KORP Terminal", link: "/ctf/hack-the-box/challenges/web/korp-terminal" },
                                             { text: "Cursed Stale Policy", link: "/ctf/hack-the-box/challenges/web/cursed-stale-policy" },
+                                            { text: "Feedback Flux", link: "/ctf/hack-the-box/challenges/web/feedback-flux" },
                                         ],
                                         // @formatter:on
                                     },
