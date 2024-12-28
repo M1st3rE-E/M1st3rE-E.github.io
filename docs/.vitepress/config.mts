@@ -100,6 +100,7 @@ export default defineConfig({
                                             { text: "KORP Terminal", link: "/ctf/hack-the-box/challenges/web/korp-terminal" },
                                             { text: "Cursed Stale Policy", link: "/ctf/hack-the-box/challenges/web/cursed-stale-policy" },
                                             { text: "Feedback Flux", link: "/ctf/hack-the-box/challenges/web/feedback-flux" },
+                                            { text: "Jailbreak", link: "/ctf/hack-the-box/challenges/web/jailbreak" },
                                         ],
                                         // @formatter:on
                                     },
