@@ -101,6 +101,7 @@ export default defineConfig({
                                             { text: "Cursed Stale Policy", link: "/ctf/hack-the-box/challenges/web/cursed-stale-policy" },
                                             { text: "Feedback Flux", link: "/ctf/hack-the-box/challenges/web/feedback-flux" },
                                             { text: "Jailbreak", link: "/ctf/hack-the-box/challenges/web/jailbreak" },
+                                            { text: "Labyrinth Linguist", link: "/ctf/hack-the-box/challenges/web/labyrinth-linguist" },
                                         ],
                                         // @formatter:on
                                     },
