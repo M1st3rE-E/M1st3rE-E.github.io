@@ -203,8 +203,6 @@ We successfully exploited the SSTI vulnerability in Apache Velocity to retrieve 
 
 ## References
 
-## References
-
 - [Apache Velocity SSTI - CVE-2020-13936](https://www.mend.io/vulnerability-database/CVE-2020-13936)
 - [PortSwigger - SSTI Explained](https://portswigger.net/web-security/server-side-template-injection)
 - [HackTricks - SSTI Exploitation](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection)
