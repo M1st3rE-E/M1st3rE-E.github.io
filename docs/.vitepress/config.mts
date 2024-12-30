@@ -102,6 +102,7 @@ export default defineConfig({
                                             { text: "Feedback Flux", link: "/ctf/hack-the-box/challenges/web/feedback-flux" },
                                             { text: "Jailbreak", link: "/ctf/hack-the-box/challenges/web/jailbreak" },
                                             { text: "Labyrinth Linguist", link: "/ctf/hack-the-box/challenges/web/labyrinth-linguist" },
+                                            { text: "HauntMart", link: "/ctf/hack-the-box/challenges/web/hauntmart" },
                                         ],
                                         // @formatter:on
                                     },
