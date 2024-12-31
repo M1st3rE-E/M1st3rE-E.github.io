@@ -3,6 +3,10 @@ title: Insomnia - Hack The Box
 date: 2024-10-23
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Insomnia
 
 ![Insomnia - thumbnail](/ctf/hack-the-box/challenges/web/insomnia/insomnia-thumbnail.gif)
@@ -135,4 +139,8 @@ sees that the username is administrator, and displays the flag.
 
 We successfully retrieve the flag! Now we can try our payload on the real **HTB** box to retrieve the flag
 
-![Insomnia - pwned](/ctf/hack-the-box/challenges/web/insomnia/insomnia-pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="Insomnia"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/610"
+/>

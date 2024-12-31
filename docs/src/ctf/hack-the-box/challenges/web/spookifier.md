@@ -3,6 +3,10 @@ title: Spookifer - Hack The Box
 date: 2024-10-19
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Spookifier
 
 ![Spookifier](/ctf/hack-the-box/challenges/web/spookifier/spookifier.png)
@@ -89,7 +93,11 @@ HTB{f4k3_fl4g_f0r_t3st1ng}
 We successfully retrieved the flag! You can now try this on the actual Hack The Box (HTB) server to obtain the real
 flag.
 
-![Spookifier - Flag](/ctf/hack-the-box/challenges/web/spookifier/spookifier-pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="Spookifier"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/413"
+/>
 
 ## References
 

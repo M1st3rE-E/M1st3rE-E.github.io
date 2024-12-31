@@ -3,6 +3,10 @@ title: Flag Command - Hack The Box
 date: 2024-12-10
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Flag Command
 
 ![Flag Command - thumbnail](/ctf/hack-the-box/challenges/web/flag-command/thumbnail.png)
@@ -104,5 +108,8 @@ the application reveals the flag:
 
 ![Flag Command - Flag](/ctf/hack-the-box/challenges/web/flag-command/flag.png)
 
-![Flag Command - pwned](/ctf/hack-the-box/challenges/web/flag-command/pwned.png)
-
+<ChallengeCard
+    challengeType="web"
+    challengeName="Flag Command"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/646"
+/>

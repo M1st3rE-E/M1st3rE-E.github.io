@@ -3,6 +3,10 @@ title: Pop Restaurant - Hack The Box
 date: 2024-10-29
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # POP Restaurant
 
 ![POP Restaurant - thumbnail](/ctf/hack-the-box/challenges/web/pop-restaurant/thumbnail.gif)
@@ -235,7 +239,11 @@ nc -lnv 12345
 
 :::
 
-![POP Restaurant - pwned](/ctf/hack-the-box/challenges/web/pop-restaurant/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="POP Restaurant"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/770"
+/>
 
 ## References
 

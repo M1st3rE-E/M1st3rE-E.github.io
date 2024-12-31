@@ -3,6 +3,10 @@ title: Breathtaking View - Hack The Box
 date: 2024-10-27
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Breathtaking View
 
 ![Breathtaking View - thumbnail](/ctf/hack-the-box/challenges/web/breathtaking-view/thumbnail.jpg)
@@ -165,7 +169,11 @@ nc -lnv 12345
 
 :::
 
-![Breathtaking View - pwned](/ctf/hack-the-box/challenges/web/breathtaking-view/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="Breathtaking View"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/767"
+/>
 
 ## References
 

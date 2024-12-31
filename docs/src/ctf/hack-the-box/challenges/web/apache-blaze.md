@@ -3,6 +3,10 @@ title: Apache blaze - Hack The Box
 date: 2024-12-09
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Apache Blaze
 
 ![Apache Blaze - thumbnail](/ctf/hack-the-box/challenges/web/apache-blaze/thumbnail.gif){width=250px height=100px style="display: block; margin: 0 auto"}
@@ -88,7 +92,11 @@ back-end to misinterpret the request.
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
 
-![Apache Blaze - pwned](/ctf/hack-the-box/challenges/web/apache-blaze/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="ApacheBlaze"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/546"
+/>
 
 ## References
 

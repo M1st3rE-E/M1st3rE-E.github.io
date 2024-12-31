@@ -3,6 +3,10 @@ title: Cursed Stale Policy - Hack The Box
 date: 2024-12-27
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Cursed Stale Policy
 
 ![Cursed Stale Policy - thumbnail](/ctf/hack-the-box/challenges/web/cursed-stale-policy/thumbnail.gif){style="width: 250px; height: 250px; display: block; margin: 0 auto"}
@@ -169,7 +173,11 @@ HTB{f4k3_fl4g_f0r_t35t1ng}
 
 We can now use the same technique to get the real flag.
 
-![Cursed Stale Policy - pwned](/ctf/hack-the-box/challenges/web/cursed-stale-policy/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="Cursed Stale Policy"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/811"
+/>
 
 ## Reference
 

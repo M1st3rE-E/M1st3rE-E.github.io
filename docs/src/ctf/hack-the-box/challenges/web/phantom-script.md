@@ -3,6 +3,10 @@ title: Phantom Script - Hack The Box
 date: 2024-12-12
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Phantom Scritp
 
 ![Phantom Script - thumbnail](/ctf/hack-the-box/challenges/web/phantom-script/thumbnail.png)
@@ -132,7 +136,11 @@ the bot processes this payload, it triggers an alert dialog, which the bot inter
 
 With this technique, the same payload can be used on the HTB server to retrieve the real flag.
 
-![Phantom Script - Pwned](/ctf/hack-the-box/challenges/web/phantom-script/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="Phantom Script"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/810"
+/>
 
 ## References
 

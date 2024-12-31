@@ -13,9 +13,13 @@ This section contains write-ups for web challenges on Hack The Box.
 | 772 | [Pentest Notes](https://app.hackthebox.com/challenges/Pentest%2520Notes)                   | Easy       | [...](./pentest-notes)       |
 | 770 | [Pop Restaurant](https://app.hackthebox.com/challenges/Pop%2520Restaurant)                 | Easy       | [...](./pop-restaurant)      |
 | 767 | [Breathtaking View](https://app.hackthebox.com/challenges/Breathtaking%2520View)           | Easy       | [...](./breathtaking-view)   |
+| 728 | [Jailbreak](https://app.hackthebox.com/challenges/Jailbreak)                               | Easy       | [...](./jailbreak)           |
+| 649 | [Labyrinth Linguist](https://app.hackthebox.com/challenges/Labyrinth%2520Linguist)         | Easy       | [...](./labyrinth-linguist)  |
 | 647 | [KORP Terminal](https://app.hackthebox.com/challenges/KORP%2520Terminal)                   | Very Easy  | [...](./korp-terminal)       |
 | 646 | [Flag Command](https://app.hackthebox.com/challenges/Flag%2520Command)                     | Very Easy  | [...](./flag-command)        |
 | 637 | [PDFy](https://app.hackthebox.com/challenges/PDFy)                                         | Easy       | [...](./pdfy)                |
+| 625 | [PumpkinSpice](https://app.hackthebox.com/challenges/PumpkinSpice)                         | Easy       | [...](./pumpkin-spice)       |
+| 622 | [HauntMart](https://app.hackthebox.com/challenges/HauntMart)                               | Easy       | [...](./hauntmart)           |
 | 610 | [Insomnia](https://app.hackthebox.com/challenges/Insomnia)                                 | Easy       | [...](./insomnia)            |
 | 551 | [JScalc](https://app.hackthebox.com/challenges/JScalc)                                     | Easy       | [...](./jscalc)              |
 | 549 | [Proxy as a Service](https://app.hackthebox.com/challenges/Proxy%2520as%2520a%2520Service) | Easy       | [...](./proxy-as-a-service)  |

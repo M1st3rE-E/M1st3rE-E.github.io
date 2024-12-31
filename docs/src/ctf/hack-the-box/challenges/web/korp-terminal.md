@@ -3,6 +3,10 @@ title: KORP Terminal - Hack The Box
 date: 2024-12-15
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # KORP Terminal
 
 ## Challenge description
@@ -148,7 +152,11 @@ We successfully logged into the application and retrieved the flag:
 HTB{f4k3_fl4g}
 ```
 
-![KORP Terminal - Pwned](/ctf/hack-the-box/challenges/web/korp-terminal/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="KORP Terminal"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/647"
+/>
 
 ## References
 

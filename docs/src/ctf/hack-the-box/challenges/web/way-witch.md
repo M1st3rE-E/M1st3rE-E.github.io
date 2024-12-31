@@ -3,6 +3,10 @@ title: WayWitch - Hack The Box
 date: 2024-12-10
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # WayWitch
 
 ## Challenge description
@@ -166,7 +170,11 @@ Top secret: The Halloween party is at the haunted mansion this year. Use this co
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
 
-![WayWitch - pwned](/ctf/hack-the-box/challenges/web/way-witch/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="WayWitch"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/807"
+/>
 
 ## References
 

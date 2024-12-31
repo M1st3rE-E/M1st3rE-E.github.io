@@ -3,6 +3,10 @@ title: PDFy - Hack The Box
 date: 2024-10-22
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # PDFy
 
 ![PDFy - thumbnail](/ctf/hack-the-box/challenges/web/pdfy/pdfy-thumbnail.png)
@@ -105,7 +109,11 @@ response, as seen in the PDF output:
 
 With this, we successfully extract the `/etc/passwd` file and capture the flag.
 
-![PDFy - pwned](/ctf/hack-the-box/challenges/web/pdfy/pdfy-pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="PDFy"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/637"
+/>
 
 ## References
 

@@ -3,6 +3,10 @@ title: Feedback Flux - Hack The Box
 date: 2024-12-27
 ---
 
+<script setup>
+    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
+</script>
+
 # Feedback Flux
 
 ## Challenge Description
@@ -191,4 +195,12 @@ After submitting the feedback, we can see that the flag is sent to our webhook.
 
 Using the same technique, we can steal the real flag.
 
-![Feedback Flux - Pwned](/ctf/hack-the-box/challenges/web/feedback-flux/pwned.png)
+<ChallengeCard
+    challengeType="web"
+    challengeName="Feedback Flux"
+    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/782"
+/>
+
+## Reference
+
+- [Webhook Site](https://webhook.site/)
