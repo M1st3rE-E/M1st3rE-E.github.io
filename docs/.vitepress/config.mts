@@ -103,6 +103,7 @@ export default defineConfig({
                                             { text: "Jailbreak", link: "/ctf/hack-the-box/challenges/web/jailbreak" },
                                             { text: "Labyrinth Linguist", link: "/ctf/hack-the-box/challenges/web/labyrinth-linguist" },
                                             { text: "HauntMart", link: "/ctf/hack-the-box/challenges/web/hauntmart" },
+                                            { text: "PumpkinSpice", link: "/ctf/hack-the-box/challenges/web/pumpkin-spice" },
                                         ],
                                         // @formatter:on
                                     },
