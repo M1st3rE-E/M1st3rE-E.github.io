@@ -23,7 +23,7 @@ This challenge presents a web application called **Pumpkin Spice**, where users 
 free treat." The application has multiple endpoints for interacting with the server. Our goal is to exploit
 vulnerabilities in the application to retrieve the flag.
 
-![PumpkinSpice - Overview](/ctf/hack-the-box/challenges/web/pumpkin-spice/overview.png)
+![PumpkinSpice - Overview](/ctf/hack-the-box/challenges/web/pumpkin-spice/overview.png){style="display: block; margin: 0 auto;"}
 
 ## Code review
 
