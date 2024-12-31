@@ -9,8 +9,7 @@ date: 2024-12-31
 
 # PumpkinSpice
 
-![PumpkinSpice - Thumbnail](/ctf/hack-the-box/challenges/web/pumpkin-spice/thumbnail.svg){style="width: 100%; max-width:
-400px; display: block; margin: 0 auto;"}
+![PumpkinSpice - Thumbnail](/ctf/hack-the-box/challenges/web/pumpkin-spice/thumbnail.svg){style="width: 100%; max-width: 400px; display: block; margin: 0 auto;"}
 
 ## Challenge Description
 
