@@ -104,6 +104,7 @@ export default defineConfig({
                                             { text: "Labyrinth Linguist", link: "/ctf/hack-the-box/challenges/web/labyrinth-linguist" },
                                             { text: "HauntMart", link: "/ctf/hack-the-box/challenges/web/hauntmart" },
                                             { text: "PumpkinSpice", link: "/ctf/hack-the-box/challenges/web/pumpkin-spice" },
+                                            { text: "Spellbound Servants", link: "/ctf/hack-the-box/challenges/web/spellbound-servants" },
                                         ],
                                         // @formatter:on
                                     },
