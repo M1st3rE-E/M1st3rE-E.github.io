@@ -116,6 +116,9 @@ export default defineConfig({
                                         items: [
                                             { text: "Emdee five for life", link: "/ctf/hack-the-box/challenges/misc/emdee-five-for-life" },
                                             { text: "Oddly Even", link: "/ctf/hack-the-box/challenges/misc/oddly-even" },
+                                            { text: "Reversal", link: "/ctf/hack-the-box/challenges/misc/reversal" },
+                                            { text: "Addition", link: "/ctf/hack-the-box/challenges/misc/addition" },
+                                            { text: "Computational Recruiting", link: "/ctf/hack-the-box/challenges/misc/computational-recruiting" },
                                         ]
                                     }
                                 ],
