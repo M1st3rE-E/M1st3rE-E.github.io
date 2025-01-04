@@ -115,6 +115,7 @@ export default defineConfig({
                                         // @formatter:off
                                         items: [
                                             { text: "Emdee five for life", link: "/ctf/hack-the-box/challenges/misc/emdee-five-for-life" },
+                                            { text: "Oddly Even", link: "/ctf/hack-the-box/challenges/misc/oddly-even" },
                                         ]
                                     }
                                 ],
