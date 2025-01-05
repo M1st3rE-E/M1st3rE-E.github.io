@@ -120,6 +120,7 @@ export default defineConfig({
                                             { text: "Addition", link: "/ctf/hack-the-box/challenges/misc/addition" },
                                             { text: "Computational Recruiting", link: "/ctf/hack-the-box/challenges/misc/computational-recruiting" },
                                             { text: "Locked Away", link: "/ctf/hack-the-box/challenges/misc/locked-away" },
+                                            { text: "Compressor", link: "/ctf/hack-the-box/challenges/misc/compressor" },
                                         ]
                                     }
                                 ],
