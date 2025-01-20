@@ -132,7 +132,21 @@ export default defineConfig({
                                 text: "Machines",
                                 collapsed: true,
                                 items: [
-                                    { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
+                                    { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" }
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        text: "TryHackMe",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "Challenges",
+                                collapsed: true,
+                                items: [
+                                    { text: "Light", link: "/ctf/tryhackme/challenges/light" },
+                                    { text: "Lo-Fi", link: "/ctf/tryhackme/challenges/lo-fi" },
                                 ],
                             },
                         ],
