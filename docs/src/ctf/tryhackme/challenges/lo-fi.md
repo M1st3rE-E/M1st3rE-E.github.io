@@ -1,6 +1,6 @@
 ---
 title: Lo-Fi - TryHackMe
-date: 2025-01-120 
+date: 2025-01-20
 ---
 
 # Lo-Fi

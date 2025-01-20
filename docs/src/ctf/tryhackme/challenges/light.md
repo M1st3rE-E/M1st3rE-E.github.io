@@ -1,6 +1,6 @@
 ---
 title: Light - TryHackMe
-date: 2025-01-19  
+date: 2025-01-19
 ---
 
 # Light
