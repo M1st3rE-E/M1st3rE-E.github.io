@@ -28,7 +28,6 @@
 
 <script setup>
 import { defineProps, onMounted, ref, watch } from "vue";
-import { inBrowser } from "vitepress";
 
 // Define props
 const props = defineProps({
@@ -47,8 +46,11 @@ watch(
             case "web":
                 iconUrl.value = "https://app.hackthebox.com/images/icons/ic-challenge-categ/ic-web.svg";
                 break;
+            case "misc":
+                iconUrl.value = "https://app.hackthebox.com/images/icons/ic-challenge-categ/ic-misc.svg";
+                break;
             default:
-                iconUrl.value = "https://app.hackthebox.com/images/icons/ic-challenge-categ/ic-web.svg";
+                iconUrl.value = "https://app.hackthebox.com/images/icons/ic-challenge-categ/ic-misc.svg";
                 break;
         }
     },
@@ -74,56 +76,51 @@ onMounted(async () => {
             },
         },
         vertex: `
-          #define M_PI 3.1415926535897932384626433832795
+            #define M_PI 3.1415926535897932384626433832795
 
-          precision highp float;
+            precision highp float;
 
-          attribute vec4 a_position;
-          attribute vec4 a_color;
+            attribute vec4 a_position;
+            attribute vec4 a_color;
 
-          uniform float u_time;
-          uniform float u_size;
-          uniform float u_speed;
-          uniform vec3 u_field;
-          uniform mat4 u_projection;
+            uniform float u_time;
+            uniform float u_size;
+            uniform float u_speed;
+            uniform vec3 u_field;
+            uniform mat4 u_projection;
 
-          varying vec4 v_color;
+            varying vec4 v_color;
 
-          void main() {
+            void main() {
+                vec3 pos = a_position.xyz;
 
-            vec3 pos = a_position.xyz;
+                pos.y += (
+                cos(pos.x / u_field.x * M_PI * 8.0 + u_time * u_speed) +
+                sin(pos.z / u_field.z * M_PI * 8.0 + u_time * u_speed)
+                ) * u_field.y;
 
-            pos.y += (
-              cos(pos.x / u_field.x * M_PI * 8.0 + u_time * u_speed) +
-              sin(pos.z / u_field.z * M_PI * 8.0 + u_time * u_speed)
-            ) * u_field.y;
+                gl_Position = u_projection * vec4( pos.xyz, a_position.w );
+                gl_PointSize = ( u_size / gl_Position.w ) * 200.0;
 
-            gl_Position = u_projection * vec4( pos.xyz, a_position.w );
-            gl_PointSize = ( u_size / gl_Position.w ) * 200.0;
-
-            v_color = a_color;
-
-          }`,
+                v_color = a_color;
+            }`,
         fragment: `
-          precision highp float;
+            precision highp float;
 
-          uniform sampler2D u_texture;
+            uniform sampler2D u_texture;
 
-          varying vec4 v_color;
+            varying vec4 v_color;
 
-          void main() {
-
-            gl_FragColor = v_color * texture2D(u_texture, gl_PointCoord);
-
-          }`,
+            void main() {
+                gl_FragColor = v_color * texture2D(u_texture, gl_PointCoord);
+            }`,
         onResize(w, h, x) {
             const S = []
                 , B = []
                 , q = 200 * (w / h)
                 , R = 1e3
                 , I = 10
-                , W = 7
-                , p = 10;
+                , W = 7;
             for (let Q = 0; Q < q; Q += W) {
                 for (let se = 0; se < R; se += W) {
                     S.push(-q / 2 + Q, -30, -R / 2 + se),
