@@ -125,6 +125,7 @@ export default defineConfig({
                                             { text: "ShinyHunter", link: "/ctf/hack-the-box/challenges/misc/shiny-hunter" },
                                             { text: "Deterministic", link: "/ctf/hack-the-box/challenges/misc/deterministic" },
                                         ]
+                                        // @formatter:on
                                     }
                                 ],
                             },
@@ -132,7 +133,7 @@ export default defineConfig({
                                 text: "Machines",
                                 collapsed: true,
                                 items: [
-                                    { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" }
+                                    { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
                                 ],
                             },
                         ],
@@ -141,16 +142,9 @@ export default defineConfig({
                         text: "TryHackMe",
                         collapsed: true,
                         items: [
-                            {
-                                text: "Challenges",
-                                collapsed: true,
-                                link: "/ctf/tryhackme/challenges/",
-                                items: [
-                                    { text: "Light", link: "/ctf/tryhackme/challenges/light" },
-                                    { text: "Lo-Fi", link: "/ctf/tryhackme/challenges/lo-fi" },
-                                    { text: "Capture", link: "/ctf/tryhackme/challenges/capture" },
-                                ],
-                            },
+                            { text: "Light", link: "/ctf/tryhackme/light" },
+                            { text: "Lo-Fi", link: "/ctf/tryhackme/lo-fi" },
+                            { text: "Capture", link: "/ctf/tryhackme/capture" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },

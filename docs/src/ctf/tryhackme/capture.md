@@ -4,12 +4,12 @@ date: 2025-02-04
 ---
 
 <script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
+    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
 </script>
 
 <RoomCard
     roomName="Capture"
-    roomIcon="/ctf/tryhackme/challenges/capture/icon-room.png"
+    roomIcon="/ctf/tryhackme/capture/icon-room.png"
     roomLink="https://tryhackme.com/room/capture"
     roomLevel="EASY"
     roomTechnology="Linux"

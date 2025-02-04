@@ -4,12 +4,12 @@ date: 2025-01-20
 ---
 
 <script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
+    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
 </script>
 
 <RoomCard
     roomName="Lo-Fi"
-    roomIcon="/ctf/tryhackme/challenges/lo-fi/icon-room.png"
+    roomIcon="/ctf/tryhackme/lo-fi/icon-room.png"
     roomLink="https://tryhackme.com/room/lofi"
     roomLevel="EASY"
     roomTechnology="Linux"
@@ -24,7 +24,7 @@ date: 2025-01-20
 The challenge presents a web application designed to let users listen to lo-fi music tracks. The goal is to identify and
 exploit a vulnerability in the application to retrieve the flag.
 
-![Lo-Fi - Overview](/ctf/tryhackme/challenges/lo-fi/overview.png)
+![Lo-Fi - Overview](/ctf/tryhackme/lo-fi/overview.png)
 
 ## Identifying the Vulnerability: Local File Inclusion (LFI)
 
@@ -48,7 +48,7 @@ http://10.10.36.217/?page=../../../etc/passwd
 
 **Result:** The contents of `/etc/passwd` are successfully retrieved, confirming the LFI vulnerability.
 
-![Lo-Fi - LFI Exploit](/ctf/tryhackme/challenges/lo-fi/lfi.png)
+![Lo-Fi - LFI Exploit](/ctf/tryhackme/lo-fi/lfi.png)
 
 ## Retrieving the Flag
 
@@ -60,4 +60,4 @@ http://10.10.36.217/?page=../../../flag.txt
 
 **Result:** The server responds with the contents of the `flag.txt` file.
 
-![Lo-Fi - Flag](/ctf/tryhackme/challenges/lo-fi/flag.png)
+![Lo-Fi - Flag](/ctf/tryhackme/lo-fi/flag.png)
