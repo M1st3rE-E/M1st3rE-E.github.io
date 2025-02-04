@@ -144,9 +144,11 @@ export default defineConfig({
                             {
                                 text: "Challenges",
                                 collapsed: true,
+                                link: "/ctf/tryhackme/challenges/",
                                 items: [
                                     { text: "Light", link: "/ctf/tryhackme/challenges/light" },
                                     { text: "Lo-Fi", link: "/ctf/tryhackme/challenges/lo-fi" },
+                                    { text: "Capture", link: "/ctf/tryhackme/challenges/Capture" },
                                 ],
                             },
                         ],

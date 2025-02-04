@@ -1,18 +1,23 @@
 {
-  "name": "pentest-everything",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "feed": "^4.2.2",
-    "vitepress": "^1.4.1"
-  }
+    "name": "pentest-everything",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "feed": "^4.2.2",
+        "terser": "^5.37.0",
+        "vitepress": "^1.5.0"
+    },
+    "dependencies": {
+        "vue": "^3.5.13"
+    }
 }

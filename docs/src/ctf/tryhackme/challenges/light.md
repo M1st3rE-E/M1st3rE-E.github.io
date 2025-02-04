@@ -3,7 +3,17 @@ title: Light - TryHackMe
 date: 2025-01-19
 ---
 
-# Light
+<script setup>
+    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
+</script>
+
+<RoomCard
+    roomName="Light"
+    roomIcon="/ctf/tryhackme/challenges/light/icon-room.png"
+    roomLink="https://tryhackme.com/r/room/lightroom"
+    roomLevel="EASY"
+    roomTechnology="Linux"
+/>
 
 ## Challenge Information
 

@@ -3,9 +3,17 @@ title: Lo-Fi - TryHackMe
 date: 2025-01-20
 ---
 
-# Lo-Fi
+<script setup>
+    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
+</script>
 
-![Lo-Fi - icon room](/ctf/tryhackme/challenges/lo-fi/icon-room.png)
+<RoomCard
+    roomName="Lo-Fi"
+    roomIcon="/ctf/tryhackme/challenges/lo-fi/icon-room.png"
+    roomLink="https://tryhackme.com/room/lofi"
+    roomLevel="EASY"
+    roomTechnology="Linux"
+/>
 
 ## Challenge Information
 
