@@ -146,6 +146,7 @@ export default defineConfig({
                             { text: "Lo-Fi", link: "/ctf/tryhackme/lo-fi" },
                             { text: "Capture", link: "/ctf/tryhackme/capture" },
                             { text: "Pickle Rick", link: "/ctf/tryhackme/pickle-rick" },
+                            { text: "Lesson Learned?", link: "/ctf/tryhackme/lesson-learned" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },

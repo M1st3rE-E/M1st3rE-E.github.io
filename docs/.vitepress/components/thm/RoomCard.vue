@@ -83,6 +83,7 @@ export default {
     font-size: 3.5rem;
     font-weight: 700;
     color: white;
+    line-height: 1;
 }
 
 .start-button {
