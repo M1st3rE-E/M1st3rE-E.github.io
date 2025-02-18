@@ -106,6 +106,7 @@ export default defineConfig({
                                             { text: "PumpkinSpice", link: "/ctf/hack-the-box/challenges/web/pumpkin-spice" },
                                             { text: "Spellbound Servants", link: "/ctf/hack-the-box/challenges/web/spellbound-servants" },
                                             { text: "Armaxis", link: "/ctf/hack-the-box/challenges/web/armaxis" },
+                                            { text: "OnlyHacks", link: "/ctf/hack-the-box/challenges/web/onlyhacks" },
                                         ],
                                         // @formatter:on
                                     },
