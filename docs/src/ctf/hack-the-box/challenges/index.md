@@ -1,9 +1,10 @@
-# Hack the Box - Challenges - Web
+# Hack the Box - Challenges
 
-This section contains write-ups for web challenges on Hack The Box.
+This section contains write-ups for challenges from the [Hack the Box](https://www.hackthebox.eu/) platform.
 
 |  #  | Challenge                                                                                  | Difficulty | Write-up                     |
 |:---:|--------------------------------------------------------------------------------------------|------------|------------------------------|
+| 845 | [Armaxis](https://app.hackthebox.com/challenges/Armaxis)                                   | Easy       | [...](./web/armaxis)         |
 | 811 | [Cursed Stale Policy](https://app.hackthebox.com/challenges/Cursed%2520Stale%2520Policy)   | Very Easy  | [...](./cursed-stale-policy) |
 | 810 | [Phantom Script](https://app.hackthebox.com/challenges/Phantom%2520Script)                 | Very Easy  | [...](./phantom-script)      |
 | 809 | [Unholy Union](https://app.hackthebox.com/challenges/Unholy%2520Union)                     | Very Easy  | [...](./unholy-union)        |

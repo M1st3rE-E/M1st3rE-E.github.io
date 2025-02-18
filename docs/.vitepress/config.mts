@@ -69,17 +69,17 @@ export default defineConfig({
                 text: "Penetration Testing",
                 items: [
                     {
-                        text: "Hack the box",
+                        text: "<div style='display: flex; align-items: center'><img src='/icon/htb.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Hack The Box</div>",
                         collapsed: true,
                         items: [
                             {
                                 text: "Challenges",
+                                link: "/ctf/hack-the-box/challenges",
                                 collapsed: true,
                                 items: [
                                     {
                                         text: "Web",
                                         collapsed: true,
-                                        link: "/ctf/hack-the-box/challenges/web",
                                         // @formatter:off
                                         items: [
                                             { text: "Gunship", link: "/ctf/hack-the-box/challenges/web/gunship" },
@@ -105,6 +105,7 @@ export default defineConfig({
                                             { text: "HauntMart", link: "/ctf/hack-the-box/challenges/web/hauntmart" },
                                             { text: "PumpkinSpice", link: "/ctf/hack-the-box/challenges/web/pumpkin-spice" },
                                             { text: "Spellbound Servants", link: "/ctf/hack-the-box/challenges/web/spellbound-servants" },
+                                            { text: "Armaxis", link: "/ctf/hack-the-box/challenges/web/armaxis" },
                                         ],
                                         // @formatter:on
                                     },
@@ -139,7 +140,7 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "TryHackMe",
+                        text: "<div style='display: flex; align-items: center'><img src='/icon/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe</div>",
                         collapsed: true,
                         items: [
                             { text: "Light", link: "/ctf/tryhackme/light" },
