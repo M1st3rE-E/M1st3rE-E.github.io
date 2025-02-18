@@ -4,6 +4,7 @@ This section contains write-ups for challenges from the [Hack the Box](https://w
 
 |  #  | Challenge                                                                                  | Difficulty | Write-up                     |
 |:---:|--------------------------------------------------------------------------------------------|------------|------------------------------|
+| 860 | [OnlyHacks](https://app.hackthebox.com/challenges/OnlyHacks)                               | Easy       | [...](./web/onlyhacks)       |
 | 845 | [Armaxis](https://app.hackthebox.com/challenges/Armaxis)                                   | Easy       | [...](./web/armaxis)         |
 | 811 | [Cursed Stale Policy](https://app.hackthebox.com/challenges/Cursed%2520Stale%2520Policy)   | Very Easy  | [...](./cursed-stale-policy) |
 | 810 | [Phantom Script](https://app.hackthebox.com/challenges/Phantom%2520Script)                 | Very Easy  | [...](./phantom-script)      |
