@@ -11,16 +11,6 @@
             </div>
             <div class="main-content">
                 <p class="title">{{ challengeName }} has been Pwned!</p>
-                <div style="display: flex; justify-content: center; align-items: center; gap: .5rem;">
-                    <p class="sub-title">Congratulations</p>
-                    <img
-                        alt="background"
-                        aria-label="web"
-                        src="/favicon.ico"
-                        style="width: 1.5rem; height: 1.5rem; border-radius: 1rem"
-                    />
-                    <p class="sub-title">0bytes, best of luck in capturing flags ahead!</p>
-                </div>
             </div>
         </div>
     </a>
@@ -251,14 +241,5 @@ onMounted(async () => {
     bottom: 0;
     height: 1px;
     background: linear-gradient(to left, rgba(159, 239, 0, 0) 0%, rgba(159, 239, 0, .75) 50%, rgba(159, 239, 0, 0) 100%);
-}
-
-.sub-title {
-    font-size: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-    color: #fff;
-    font-weight: 300;
-    line-height: 1.5;
 }
 </style>
