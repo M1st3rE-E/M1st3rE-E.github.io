@@ -113,7 +113,6 @@ export default defineConfig({
                                     {
                                         text: "Misc",
                                         collapsed: true,
-                                        link: "/ctf/hack-the-box/challenges/misc",
                                         // @formatter:off
                                         items: [
                                             { text: "Emdee five for life", link: "/ctf/hack-the-box/challenges/misc/emdee-five-for-life" },
