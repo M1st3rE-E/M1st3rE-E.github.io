@@ -148,6 +148,7 @@ export default defineConfig({
                             { text: "Capture", link: "/ctf/tryhackme/capture" },
                             { text: "Pickle Rick", link: "/ctf/tryhackme/pickle-rick" },
                             { text: "Lesson Learned?", link: "/ctf/tryhackme/lesson-learned" },
+                            { text: "RootMe", link: "/ctf/tryhackme/rootme" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
