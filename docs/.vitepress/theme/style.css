@@ -136,3 +136,15 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+
+table {
+    display: table !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.custom-page .VPDoc {
+    max-width: 800px; /* Set your desired max-width */
+    margin: 0 auto;   /* Center the content */
+}

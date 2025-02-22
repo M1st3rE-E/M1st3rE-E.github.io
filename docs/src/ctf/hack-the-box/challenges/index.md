@@ -1,3 +1,8 @@
+---
+aside: false
+pageClass: custom-page
+---
+
 ![Hack the Box](/ctf/hack-the-box/banner.png){style="display: block; margin: auto; border-radius: 10px;"}
 
 # Hack the Box - Challenges
