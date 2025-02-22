@@ -150,6 +150,7 @@ export default defineConfig({
                             { text: "Lesson Learned?", link: "/ctf/tryhackme/lesson-learned" },
                             { text: "RootMe", link: "/ctf/tryhackme/rootme" },
                             { text: "Whiterose", link: "/ctf/tryhackme/whiterose" },
+                            { text: "Basic Pentesing", link: "/ctf/tryhackme/basic-pentesting" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
