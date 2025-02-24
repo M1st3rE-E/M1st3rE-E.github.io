@@ -1,3 +1,8 @@
+---
+title: Prototype Pollution
+date: 2024-10-20
+---
+
 # **Prototype Pollution**
 
 ## **Introduction**

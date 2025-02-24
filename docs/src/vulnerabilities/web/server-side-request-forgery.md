@@ -1,3 +1,8 @@
+---
+title: Server-Side Request Forgery (SSRF)
+date: 2024-10-23
+---
+
 # **Server-Side Request Forgery (SSRF)**
 
 ## **Introduction**

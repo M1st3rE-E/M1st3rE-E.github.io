@@ -1,3 +1,8 @@
+---
+title: SSTI in Jinja2 (Python)
+date: 2024-11-16
+---
+
 # SSTI in Jinja2 (Python)
 
 ## Theory

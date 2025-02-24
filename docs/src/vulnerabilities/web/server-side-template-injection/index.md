@@ -1,3 +1,8 @@
+---
+title: Server Side Template Injection (SSTI)
+date: 2024-11-16
+---
+
 # Server Side Template Injection (SSTI)
 
 ## Introduction
