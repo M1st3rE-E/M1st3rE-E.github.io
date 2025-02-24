@@ -39,13 +39,7 @@ three writeups:
 Writeups from my experience tackling **TryHackMe** rooms, with clear and concise explanations of each solution. Last
 three writeups:
 
-<iframe
-    border="0"
-    cellspacing="0"
-    frameborder="0"
-    src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=646061"
-    style="margin-top: 1.6rem; width: 329px; height: 88px; border: none; border-radius: 12px; background: #2e2e32"
-    ></iframe>
+<img src="https://tryhackme-badges.s3.amazonaws.com/Rether.png" alt="Thm badge" />
 
 [//]: # (_Explore more in the [THM section]&#40;./thm/index.md&#41;._)
 
