@@ -29,6 +29,9 @@ three writeups:
 
 <LastHtbPosts />
 
+<img src="https://www.hackthebox.eu/badge/image/585215" alt="HTB - badge" style="margin-top: 1rem;" />
+
+
 [//]: # (_Learn more in the [HTB section]&#40;./hack-the-box/index.md&#41;._)
 
 ### <div style='display: flex; align-items: center'><img src='/icon/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe (THM) Writeups</div>
@@ -36,7 +39,13 @@ three writeups:
 Writeups from my experience tackling **TryHackMe** rooms, with clear and concise explanations of each solution. Last
 three writeups:
 
-<LastThmPosts />
+<iframe
+    border="0"
+    cellspacing="0"
+    frameborder="0"
+    src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=646061"
+    style="margin-top: 1.6rem; width: 329px; height: 88px; border: none; border-radius: 12px; background: #2e2e32"
+    ></iframe>
 
 [//]: # (_Explore more in the [THM section]&#40;./thm/index.md&#41;._)
 
