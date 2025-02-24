@@ -154,7 +154,7 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "<div style='display: flex; align-items: center'><img src='/icon/daily-pentesting.svg' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe</div>",
+                        text: "<div style='display: flex; align-items: center'><img src='/icon/daily-pentesting.svg' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>DailyPentesting</div>",
                         collapsed: true,
                         // @formatter:off
                         items: [
