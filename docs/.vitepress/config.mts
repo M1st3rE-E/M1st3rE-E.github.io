@@ -142,6 +142,7 @@ export default defineConfig({
                     {
                         text: "<div style='display: flex; align-items: center'><img src='/icon/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe</div>",
                         collapsed: true,
+                        link: "/ctf/tryhackme",
                         items: [
                             { text: "Light", link: "/ctf/tryhackme/light" },
                             { text: "Lo-Fi", link: "/ctf/tryhackme/lo-fi" },

@@ -142,6 +142,7 @@ table {
     display: table !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    min-width: 672px;
 }
 
 .custom-page .VPDoc {
