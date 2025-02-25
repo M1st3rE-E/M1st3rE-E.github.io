@@ -151,6 +151,7 @@ export default defineConfig({
                             { text: "RootMe", link: "/ctf/tryhackme/rootme" },
                             { text: "Whiterose", link: "/ctf/tryhackme/whiterose" },
                             { text: "Basic Pentesing", link: "/ctf/tryhackme/basic-pentesting" },
+                            { text: "Cheese CTF", link: "/ctf/tryhackme/cheese-ctf" },
                         ],
                     },
                     {
