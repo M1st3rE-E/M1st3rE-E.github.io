@@ -39,6 +39,8 @@ three writeups:
 Writeups from my experience tackling **TryHackMe** rooms, with clear and concise explanations of each solution. Last
 three writeups:
 
+<LastThmPosts />
+
 <img src="https://tryhackme-badges.s3.amazonaws.com/Rether.png" alt="Thm badge" />
 
 [//]: # (_Explore more in the [THM section]&#40;./thm/index.md&#41;._)
