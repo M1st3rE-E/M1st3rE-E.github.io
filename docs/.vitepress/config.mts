@@ -153,6 +153,7 @@ export default defineConfig({
                             { text: "Whiterose", link: "/ctf/tryhackme/whiterose" },
                             { text: "Basic Pentesing", link: "/ctf/tryhackme/basic-pentesting" },
                             { text: "Cheese CTF", link: "/ctf/tryhackme/cheese-ctf" },
+                            { text: "Silver platter", link: "/ctf/tryhackme/silver-platter" },
                         ],
                     },
                     {
