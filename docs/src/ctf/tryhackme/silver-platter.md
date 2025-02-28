@@ -4,15 +4,15 @@ date: 2025-02-27
 ---
 
 <script setup>
-
+    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
 </script>
 
 <RoomCard
-roomName="Silver Platter"
-roomIcon="/ctf/tryhackme/silver-platter/icon-room.png"
-roomLink="https://tryhackme.com/room/silverplatter"
-roomLevel="EASY"
-roomTechnology="Linux"
+    roomName="Silver Platter"
+    roomIcon="/ctf/tryhackme/silver-platter/icon-room.png"
+    roomLink="https://tryhackme.com/room/silverplatter"
+    roomLevel="EASY"
+    roomTechnology="Linux"
 />
 
 ## Challenge description
