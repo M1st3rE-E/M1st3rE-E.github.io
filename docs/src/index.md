@@ -41,7 +41,7 @@ three writeups:
 
 <LastThmPosts />
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/Rether.png" alt="Thm badge" />
+<img src="https://tryhackme-badges.s3.amazonaws.com/Rether.png" alt="Thm badge" style="margin-top: 1rem;" />
 
 [//]: # (_Explore more in the [THM section]&#40;./thm/index.md&#41;._)
 
