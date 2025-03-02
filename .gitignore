@@ -4,6 +4,6 @@ node_modules
 # Idea
 .idea
 
-# Vitpress cache
+# Vitepress cache
 docs/.vitepress/cache/
 docs/.vitepress/dist/
