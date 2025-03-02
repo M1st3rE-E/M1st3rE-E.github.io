@@ -18,7 +18,7 @@ Welcome to my personal **cybersecurity documentation site**, where I share detai
 penetration testing challenges, and walkthroughs from **Hack The Box (HTB)** and **TryHackMe (THM)**. Explore my
 collection of resources, tips, and insights gained from real-world challenges.
 
-![Pentest Everything - wallpaper](/home-wallpaper.jpg)
+![Pentest Everything - wallpaper](/home-wallpaper.jpg){style="border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);"}
 
 ## 📂 Categories
 
