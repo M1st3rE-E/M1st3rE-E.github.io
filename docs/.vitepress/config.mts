@@ -155,6 +155,7 @@ export default defineConfig({
                             { text: "Cheese CTF", link: "/ctf/tryhackme/cheese-ctf" },
                             { text: "Silver platter", link: "/ctf/tryhackme/silver-platter" },
                             { text: "The Sticker Shop", link: "/ctf/tryhackme/the-sticker-shop" },
+                            { text: "Lookup", link: "/ctf/tryhackme/lookup" },
                         ],
                     },
                     {
