@@ -21,3 +21,5 @@ This section contains write-ups for challenges from the [Try Hack Me](https://tr
 | 8  | [RootMe](https://tryhackme.com/room/rrootme)                     | Easy       | [RootMe](./rootme)                     |
 | 9  | [Whiterose](https://tryhackme.com/room/whiterose)                | Easy       | [Whiterose](./whiterose)               |
 | 10 | [Silver Platter](https://tryhackme.com/room/silverplatter)       | Easy       | [Silver Platter](./silver-platter)     |
+| 11 | [Lookup](https://tryhackme.com/room/lookup)                      | Easy       | [Lookup](./lookup)                     |
+| 12 | [U.A. High School](https://tryhackme.com/room/yueiua)            | Easy       | [U.A. High School](./high-school)      |
