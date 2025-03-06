@@ -1,6 +1,6 @@
 ---
-title: Capture - TryHackMe
-date: 2025-02-04
+title: High School - TryHackMe
+date: 2025-03-05
 ---
 
 <script setup>
