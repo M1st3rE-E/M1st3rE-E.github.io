@@ -16,7 +16,7 @@
             <div style="display: flex; flex-direction: row; align-items: flex-end; justify-content: center">
                 <div style="display: flex; flex-direction: row; align-items: center; margin-right: 1rem">
                     <p style="margin-right: .25rem">Level:</p>
-                    <p style="color: #A3EA2AFF">{{ roomLevel }}</p>
+                    <p :style="{ color: roomLevelColor }">{{ roomLevel }}</p>
                 </div>
                 <p>Technology: {{ roomTechnology }}</p>
             </div>
@@ -48,6 +48,20 @@ export default {
         roomTechnology: {
             type: String,
             required: true,
+        },
+    },
+    computed: {
+        roomLevelColor() {
+            switch (this.roomLevel.toLowerCase()) {
+                case "easy":
+                    return "#A3EA2A";
+                case "medium":
+                    return "#FFBB45";
+                case "hard":
+                    return "#FF5B67";
+                default:
+                    return "#FFFFFF";
+            }
         },
     },
 };
