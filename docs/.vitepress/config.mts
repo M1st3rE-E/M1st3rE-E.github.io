@@ -1,6 +1,7 @@
 import path from "path";
 import { Feed } from "feed";
 import { writeFileSync } from "fs";
+import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 import { createContentLoader, defineConfig, type SiteConfig } from "vitepress";
 
 const hostname: string = "https://retherszu.github.io";
@@ -10,6 +11,9 @@ export default defineConfig({
     description: "A VitePress Site",
     ignoreDeadLinks: true,
     markdown: {
+        config(md) {
+            md.use(tabsMarkdownPlugin);
+        },
         image: {
             lazyLoading: true,
         },
@@ -135,6 +139,7 @@ export default defineConfig({
                                 collapsed: true,
                                 items: [
                                     { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
+                                    { text: "Cap", link: "/ctf/hack-the-box/machines/cap" },
                                 ],
                             },
                         ],
@@ -183,6 +188,7 @@ export default defineConfig({
                         text: "Web",
                         collapsed: true,
                         items: [
+                            // @formatter:off
                             { text: "Prototype Pollution", link: "/vulnerabilities/web/prototype-pollution" },
                             {
                                 text: "Server-Side Template Injection (SSTI)",
@@ -195,7 +201,6 @@ export default defineConfig({
                                     },
                                 ],
                             },
-                            // @formatter:off
                             { text: "Server-Side Request Forgery (SSRF)", link: "/vulnerabilities/web/server-side-request-forgery", },
                             // @formatter:on
                         ],
