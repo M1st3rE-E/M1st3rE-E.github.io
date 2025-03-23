@@ -163,6 +163,7 @@ export default defineConfig({
                             { text: "The Sticker Shop", link: "/ctf/tryhackme/the-sticker-shop" },
                             { text: "Lookup", link: "/ctf/tryhackme/lookup" },
                             { text: "U.A. High School", link: "/ctf/tryhackme/high-school" },
+                            { text: "Billing", link: "/ctf/tryhackme/billing" },
                         ],
                     },
                     {
