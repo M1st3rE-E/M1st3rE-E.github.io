@@ -7,3 +7,6 @@ node_modules
 # Vitepress cache
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+
+# Macos
+.DS_Store
