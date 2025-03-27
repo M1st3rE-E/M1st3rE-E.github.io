@@ -141,6 +141,7 @@ export default defineConfig({
                                     { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
                                     { text: "Cap", link: "/ctf/hack-the-box/machines/cap" },
                                     { text: "Paper", link: "/ctf/hack-the-box/machines/paper" },
+                                    { text: "Writeup", link: "/ctf/hack-the-box/machines/writeup" },
                                 ],
                             },
                         ],
