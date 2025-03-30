@@ -165,6 +165,7 @@ export default defineConfig({
                             { text: "Lookup", link: "/ctf/tryhackme/lookup" },
                             { text: "U.A. High School", link: "/ctf/tryhackme/high-school" },
                             { text: "Billing", link: "/ctf/tryhackme/billing" },
+                            { text: "Publisher", link: "/ctf/tryhackme/publisher" },
                         ],
                     },
                     {

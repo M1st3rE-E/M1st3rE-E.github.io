@@ -24,3 +24,4 @@ This section contains write-ups for challenges from the [Try Hack Me](https://tr
 | 11 | [Lookup](https://tryhackme.com/room/lookup)                      | Easy       | [Lookup](./lookup)                     |
 | 12 | [U.A. High School](https://tryhackme.com/room/yueiua)            | Easy       | [U.A. High School](./high-school)      |
 | 13 | [The Sticker Shop](https://tryhackme.com/room/thestickershop)    | Easy       | [The Stiker Shop](./the-sticker-shop)  |
+| 14 | [Publisher](https://tryhackme.com/room/publisher)                | Easy       | [Publisher](./publisher)               |
