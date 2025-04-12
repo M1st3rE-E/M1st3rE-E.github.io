@@ -167,6 +167,7 @@ export default defineConfig({
                             { text: "Billing", link: "/ctf/tryhackme/billing" },
                             { text: "Publisher", link: "/ctf/tryhackme/publisher" },
                             { text: "mKingdom", link: "/ctf/tryhackme/mkingdom" },
+                            { text: "Decryptify", link: "/ctf/tryhackme/decryptify" },
                         ],
                     },
                     {
