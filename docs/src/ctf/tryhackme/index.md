@@ -26,4 +26,4 @@ This section contains write-ups for challenges from the [Try Hack Me](https://tr
 | 13  | [The Sticker Shop](https://tryhackme.com/room/thestickershop)    | Easy       | [The Stiker Shop](./the-sticker-shop)  |
 | 14  | [Publisher](https://tryhackme.com/room/publisher)                | Easy       | [Publisher](./publisher)               |
 | 15  | [mKingdom](https://tryhackme.com/room/mkingdom)                  | Easy       | [mKingdom](./m-kingdom)                |
-| 16  | [Decryptify](https://tryhackme.com/room/decryptify)              | Easy       | [Decryptify](./decryptify)             |
+| 16  | [Decryptify](https://tryhackme.com/room/decryptify)              | Medium     | [Decryptify](./decryptify)             |
