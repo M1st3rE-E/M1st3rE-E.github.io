@@ -168,6 +168,13 @@ export default defineConfig({
                             { text: "Publisher", link: "/ctf/tryhackme/publisher" },
                             { text: "mKingdom", link: "/ctf/tryhackme/mkingdom" },
                             { text: "Decryptify", link: "/ctf/tryhackme/decryptify" },
+                            {
+                                text: "Advent of Cyber 1 - 2019",
+                                collapsed: true,
+                                items: [
+                                    { text: "Day 1 - Inventory Management", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-1-inventory-management" },
+                                ],
+                            },
                         ],
                     },
                     {
