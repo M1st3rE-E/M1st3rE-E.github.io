@@ -173,6 +173,7 @@ export default defineConfig({
                                 collapsed: true,
                                 items: [
                                     { text: "Day 1 - Inventory Management", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-1-inventory-management" },
+                                    { text: "Day 2 - Arctic Forum", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-2-arctic-forum" },
                                 ],
                             },
                         ],
