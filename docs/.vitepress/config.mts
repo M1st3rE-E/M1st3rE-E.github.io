@@ -175,6 +175,7 @@ export default defineConfig({
                                     { text: "Day 1 - Inventory Management", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-1-inventory-management" },
                                     { text: "Day 2 - Arctic Forum", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-2-arctic-forum" },
                                     { text: "Day 3 - Evil Elf", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-3-evil-elf" },
+                                    { text: "Day 4 - Training", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-4-training" },
                                 ],
                             },
                         ],
