@@ -79,6 +79,7 @@ export default {
     background: linear-gradient(to top, #1B2538, #203552);
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
 }
 
 .room-type {
