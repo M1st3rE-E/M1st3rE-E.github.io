@@ -183,16 +183,8 @@ export default defineConfig({
                                     { text: "Day 10 - Metasploit-a-ho-ho-ho", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-10-metasploit-a-ho-ho-ho" },
                                 ],
                             },
+                            { text: "Simple CTF", link: "/ctf/tryhackme/simple-ctf" },
                         ],
-                    },
-                    {
-                        text: "<div style='display: flex; align-items: center'><img src='/icon/daily-pentesting.svg' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>DailyPentesting</div>",
-                        collapsed: true,
-                        // @formatter:off
-                        items: [
-                            { text: "Secrets Behind the Screens: A Housekeeping Mystery", link: "/ctf/daily-pentesting/secrets-behind-the-screens-a-housekeeping-mystery" },
-                        ],
-                        // @formatter:on
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
                     // { text: "Reconnaissance", link: "/reconnaissance" },
