@@ -184,6 +184,7 @@ export default defineConfig({
                                 ],
                             },
                             { text: "Simple CTF", link: "/ctf/tryhackme/simple-ctf" },
+                            { text: "ToolsRus", link: "/ctf/tryhackme/tools-rus" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
