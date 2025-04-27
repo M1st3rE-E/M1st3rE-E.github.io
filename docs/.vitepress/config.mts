@@ -181,6 +181,7 @@ export default defineConfig({
                                     { text: "Day 7 - Killing Up", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-7-killing-up" },
                                     { text: "Day 8 - SUID Shenanigans", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-8-suid-shenanigans" },
                                     { text: "Day 10 - Metasploit-a-ho-ho-ho", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-10-metasploit-a-ho-ho-ho" },
+                                    { text: "Day 11 - Elf Applications", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-11-elf-applications" },
                                 ],
                             },
                             { text: "Simple CTF", link: "/ctf/tryhackme/simple-ctf" },
