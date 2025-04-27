@@ -149,3 +149,7 @@ table {
     max-width: 800px; /* Set your desired max-width */
     margin: 0 auto; /* Center the content */
 }
+
+img {
+    cursor: pointer; 
+}

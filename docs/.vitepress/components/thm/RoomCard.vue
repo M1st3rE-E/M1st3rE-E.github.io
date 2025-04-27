@@ -6,6 +6,7 @@
                 <h2 class="room-title">{{ roomName }}</h2>
             </div>
             <img
+                class="room-icon"
                 :src="roomIcon"
                 alt="Room Icon"
                 style="width: 200px; height: 200px;"
@@ -22,7 +23,6 @@
             </div>
         </div>
     </div>
-
 </template>
 
 <script>
@@ -120,5 +120,11 @@ export default {
 .room-card p {
     font-size: 0.875rem;
     color: #d1d5db;
+}
+
+@media (max-width: 768px) {
+    .room-icon {
+        display: none;
+    }
 }
 </style>
