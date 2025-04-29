@@ -171,6 +171,7 @@ export default defineConfig({
                             {
                                 text: "Advent of Cyber 1 - 2019",
                                 collapsed: true,
+                                link: "/ctf/tryhackme/advent-of-cyber-1-2019",
                                 items: [
                                     { text: "Day 1 - Inventory Management", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-1-inventory-management" },
                                     { text: "Day 2 - Arctic Forum", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-2-arctic-forum" },
@@ -182,6 +183,7 @@ export default defineConfig({
                                     { text: "Day 8 - SUID Shenanigans", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-8-suid-shenanigans" },
                                     { text: "Day 10 - Metasploit-a-ho-ho-ho", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-10-metasploit-a-ho-ho-ho" },
                                     { text: "Day 11 - Elf Applications", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-11-elf-applications" },
+                                    { text: "Day 12 - ElfCryption", link: "/ctf/tryhackme/advent-of-cyber-1-2019/day-12-elfcryption" },
                                 ],
                             },
                             { text: "Simple CTF", link: "/ctf/tryhackme/simple-ctf" },

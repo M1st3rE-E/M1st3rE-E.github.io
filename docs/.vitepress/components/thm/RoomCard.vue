@@ -16,10 +16,10 @@
             <a :href="roomLink" target="_blank" class="start-button">Start Room</a>
             <div style="display: flex; flex-direction: row; align-items: flex-end; justify-content: center">
                 <div style="display: flex; flex-direction: row; align-items: center; margin-right: 1rem">
-                    <p style="margin-right: .25rem">Level:</p>
-                    <p :style="{ color: roomLevelColor }">{{ roomLevel }}</p>
+                    <p v-if="roomLevel" style="margin-right: .25rem">Level:</p>
+                    <p v-if="roomLevel" :style="{ color: roomLevelColor }">{{ roomLevel }}</p>
                 </div>
-                <p>Technology: {{ roomTechnology }}</p>
+                <p v-if="roomTechnology">Technology: {{ roomTechnology }}</p>
             </div>
         </div>
     </div>
@@ -43,15 +43,16 @@ export default {
         },
         roomLevel: {
             type: String,
-            required: true,
+            required: false,
         },
         roomTechnology: {
             type: String,
-            required: true,
+            required: false,
         },
     },
     computed: {
         roomLevelColor() {
+            if (!this.roomLevel) return "#FFFFFF";
             switch (this.roomLevel.toLowerCase()) {
                 case "easy":
                     return "#A3EA2A";

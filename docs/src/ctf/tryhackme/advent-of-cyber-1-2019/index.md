@@ -18,4 +18,5 @@ This section contains write-ups for challenges from the [Advent of Cyber 1 - 201
 |   7   | [Day 7 - Killing Up](https://tryhackme.com/room/killingup)                     | Easy       | [Day 7 - Killing Up](./day-7-killing-up)                         |
 |   8   | [Day 8 - SUID Shenanigans](https://tryhackme.com/room/suidshenanigans)         | Easy       | [Day 8 - SUID Shenanigans](./day-8-suid-shenanigans)             |
 |  10   | [Day 10 - Metasploit-a-ho-ho-ho](https://tryhackme.com/room/metasploitahohoho) | Easy       | [Day 10 - Metasploit-a-ho-ho-ho](./day-10-metasploit-a-ho-ho-ho) |
-|  11   | [Day 11 - SUID Shenanigans](https://tryhackme.com/room/suidshenanigans)         | Easy       | [Day 11 - SUID Shenanigans](./day-11-suid-shenanigans)             |
+|  11   | [Day 11 - Elf Applications](https://tryhackme.com/room/elfapplications)       | Easy       | [Day 11 - Elf Applications](./day-11-elf-applications)           |
+|  12   | [Day 12 - ElfCryption](https://tryhackme.com/room/elfcryption)               | Easy       | [Day 12 - ElfCryption](./day-12-elfcryption)                     |
