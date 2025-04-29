@@ -1,6 +1,6 @@
 ---
 title: Advent of Cyber 1 - 2019 - Day 12 - ElfCryption - TryHackMe
-date: 2025-04-14
+date: 2025-04-29
 ---
 
 <script setup>
