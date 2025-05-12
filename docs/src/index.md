@@ -1,7 +1,7 @@
 ---
 hero:
-    name: "Pentest Everything"
-    text: "Pentest Everything is a VitePress Site, where I post my notes and writeups on various topics."
+  name: "Pentest Everything"
+  text: "Pentest Everything is a VitePress Site, where I post my notes and writeups on various topics."
 aside: false
 pageClass: custom-page
 ---
@@ -31,8 +31,7 @@ three writeups:
 
 <img src="https://www.hackthebox.eu/badge/image/585215" alt="HTB - badge" style="margin-top: 1rem;" />
 
-
-[//]: # (_Learn more in the [HTB section]&#40;./hack-the-box/index.md&#41;._)
+[//]: # "_Learn more in the [HTB section](./hack-the-box/index.md)._"
 
 ### <div style='display: flex; align-items: center'><img src='/icon/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe (THM) Writeups</div>
 
@@ -43,7 +42,7 @@ three writeups:
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/Rether.png" alt="Thm badge" style="margin-top: 1rem;" />
 
-[//]: # (_Explore more in the [THM section]&#40;./thm/index.md&#41;._)
+[//]: # "_Explore more in the [THM section](./thm/index.md)._"
 
 ### 🔐 Web Vulnerabilities
 
@@ -52,7 +51,7 @@ advanced issues like **Prototype Pollution**. Last three writeups:
 
 <LastVulnPosts />
 
-[//]: # (_Discover more in the [Vulnerabilities section]&#40;/vulnerabilities/index&#41;._)
+[//]: # "_Discover more in the [Vulnerabilities section](/vulnerabilities/index)._"
 
 ## 🔍 About Me
 
@@ -62,7 +61,6 @@ fascinating world of cybersecurity, particularly in the field of penetration tes
 delving into the complexities of systems and uncovering potential vulnerabilities. I constantly seek to expand my
 knowledge and skills, as I believe there's always more to learn in this ever-evolving field.
 </p>
-
 
 <p align="justify">
 This is where I present all the articles I've written about penatration testing. I also welcome the idea that these
