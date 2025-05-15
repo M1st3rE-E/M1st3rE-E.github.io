@@ -1,11 +1,21 @@
 <template>
-    <li v-for="post in posts" :key="post.path">
-        <a :href="post.path">{{ post.title }}</a>
-    </li>
+    <div class="posts-grid">
+        <PostCard
+            v-for="post in posts"
+            :key="post.path"
+            :post="post"
+            post-type="Hack The Box"
+        />
+    </div>
 </template>
 
 <script>
+import PostCard from './PostCard.vue';
+
 export default {
+    components: {
+        PostCard
+    },
     setup() {
         const postsList = import.meta.glob("/ctf/hack-the-box/**/*.md", { eager: true });
 
@@ -30,3 +40,12 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+</style>

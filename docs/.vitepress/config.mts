@@ -10,6 +10,7 @@ export default defineConfig({
     title: "Pentest Everything",
     description: "A VitePress Site",
     ignoreDeadLinks: true,
+    appearance: "force-dark",
     markdown: {
         config(md) {
             md.use(tabsMarkdownPlugin);

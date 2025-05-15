@@ -1,12 +1,12 @@
 // https://vitepress.dev/guide/custom-theme
-import "./style.css";
 import { h } from "vue";
 import { useRoute } from "vitepress";
 import type { Theme } from "vitepress";
-import DefaultTheme from "vitepress/theme";
+import DefaultTheme from "vitepress/theme-without-fonts";
 import imageViewer from "vitepress-plugin-image-viewer";
 import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client";
 import vImageViewer from "vitepress-plugin-image-viewer/lib/vImageViewer.vue";
+import "./style.css";
 
 export default {
     extends: DefaultTheme,

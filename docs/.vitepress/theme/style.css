@@ -42,6 +42,8 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
+/* Import JetBrains Mono font */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 :root {
     --vp-c-default-1: var(--vp-c-gray-1);
@@ -68,6 +70,28 @@
     --vp-c-danger-2: var(--vp-c-red-2);
     --vp-c-danger-3: var(--vp-c-red-3);
     --vp-c-danger-soft: var(--vp-c-red-soft);
+
+    /* Set JetBrains Mono as the default font */
+    --vp-font-family-base: 'JetBrains Mono', monospace;
+    --vp-font-family-mono: 'JetBrains Mono', monospace;
+
+    /* Set background colors */
+    --vp-c-bg: #1F1F1F;
+    --vp-c-bg-soft: #2A2A2A;
+    --vp-c-bg-mute: #333333;
+
+    /* Sidebar background colors */
+    --vp-c-bg-soft: #1A1A1A;
+    --vp-c-bg-alt: #1A1A1A;
+    --vp-custom-block-tip-bg: rgba(26, 26, 26, 0.8);
+
+    --vp-c-gutter: #2e2e32;
+
+    --vp-c-text-1: #B3B3B3;
+    --vp-c-text-2: #B3B3B3;
+    --vp-c-text-3: #B3B3B3;
+    --vp-c-text-code: #B3B3B3;
+
 }
 
 /**
@@ -125,7 +149,6 @@
 :root {
     --vp-custom-block-tip-border: transparent;
     --vp-custom-block-tip-text: var(--vp-c-text-1);
-    --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
     --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
@@ -152,4 +175,128 @@ table {
 
 img {
     cursor: pointer; 
+}
+
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+ :root {
+    --vp-button-brand-border: transparent;
+    --vp-button-brand-text: var(--vp-c-white);
+    --vp-button-brand-bg: var(--vp-c-brand-3);
+    --vp-button-brand-hover-border: transparent;
+    --vp-button-brand-hover-text: var(--vp-c-white);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+    --vp-button-brand-active-border: transparent;
+    --vp-button-brand-active-text: var(--vp-c-white);
+    --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+            120deg,
+            #bd34fe 30%,
+            #41d1ff
+    );
+
+    --vp-home-hero-image-background-image: linear-gradient(
+            -45deg,
+            #bd34fe 50%,
+            #47caff 50%
+    );
+    --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+    :root {
+        --vp-home-hero-image-filter: blur(56px);
+    }
+}
+
+@media (min-width: 960px) {
+    :root {
+        --vp-home-hero-image-filter: blur(68px);
+    }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+    --vp-custom-block-tip-border: transparent;
+    --vp-custom-block-tip-text: var(--vp-c-text-1);
+    --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+    --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+
+table {
+    display: table !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    min-width: 672px;
+}
+
+.custom-page .VPDoc {
+    max-width: 800px; /* Set your desired max-width */
+    margin: 0 auto; /* Center the content */
+}
+
+img {
+    cursor: pointer; 
+}
+
+li, h1, h2, h3, h4, h5, h6 {
+    color: var(--vp-c-text-1);
+}
+
+h1 {
+    margin: 0 0 calc(1em * 0.5)!important;
+}
+
+h2 {
+    margin: 0 0 calc(1em * 0.6)!important;
+}
+
+h3 {
+    margin: 0 0 calc(1em * 0.7)!important;
+}
+
+h4 {
+    margin: 0 0 calc(1em * 0.8)!important;
+}
+
+h5 {
+    margin: 0 0 calc(1em * 0.9)!important;
+}
+
+h6 {
+    margin: 0 0 calc(1em * 1)!important;
+}
+
+.vp-doc p {
+    margin: 0 0 calc(1em * 2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #E6E6E6 !important;
+}
+
+a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
+    color: var(--vp-c-brand-2)!important;
 }
