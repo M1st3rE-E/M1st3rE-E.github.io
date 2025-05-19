@@ -7,9 +7,7 @@ pageClass: custom-page
 ---
 
 <script setup>
-    import LastHtbPosts from "../.vitepress/components/LastHtbPosts.vue";
-    import LastThmPosts from "../.vitepress/components/LastThmPosts.vue";
-    import LastVulnPosts from "../.vitepress/components/LastVulnPosts.vue";
+    import LastPosts from "../.vitepress/components/LastPosts.vue";
 </script>
 
 # Welcome to My Cybersecurity Hub
@@ -20,38 +18,11 @@ collection of resources, tips, and insights gained from real-world challenges.
 
 ![Pentest Everything - wallpaper](/home-wallpaper.jpg){style="border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);"}
 
-## 📂 Categories
+## 📂 Latest Writeups
 
-### <div style='display: flex; align-items: center'><img src='/icon/htb.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Hack The Box (HTB) Writeups</div>
+Here are my most recent writeups from various platforms:
 
-Detailed walkthroughs of the latest HTB challenges, where I explain each step, from enumeration to exploitation. Last
-three writeups:
-
-<LastHtbPosts />
-
-<img src="https://www.hackthebox.eu/badge/image/585215" alt="HTB - badge" style="margin-top: 1rem;" />
-
-[//]: # "_Learn more in the [HTB section](./hack-the-box/index.md)._"
-
-### <div style='display: flex; align-items: center'><img src='/icon/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe (THM) Writeups</div>
-
-Writeups from my experience tackling **TryHackMe** rooms, with clear and concise explanations of each solution. Last
-three writeups:
-
-<LastThmPosts />
-
-<img src="https://tryhackme-badges.s3.amazonaws.com/Rether.png" alt="Thm badge" style="margin-top: 1rem;" />
-
-[//]: # "_Explore more in the [THM section](./thm/index.md)._"
-
-### 🔐 Web Vulnerabilities
-
-Explore in-depth analyses of various web vulnerabilities, ranging from classic exploits like **SQL Injection** to more
-advanced issues like **Prototype Pollution**. Last three writeups:
-
-<LastVulnPosts />
-
-[//]: # "_Discover more in the [Vulnerabilities section](/vulnerabilities/index)._"
+<LastPosts />
 
 ## 🔍 About Me
 

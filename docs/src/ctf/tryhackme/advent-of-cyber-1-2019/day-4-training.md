@@ -1,25 +1,18 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 4 - Training - TryHackMe
+clayout: ctf
+title: Day 4 - Training
+type: TryHackMe
 date: 2025-04-17
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-4-training/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-4-training/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Training"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-4-training/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge description
 
-With the entire incident, McElferson has been very stressed.
-
-We need all hands on deck now
+With the entire incident, McElferson has been very stressed. We need all hands on deck now
 
 # Challenge Overview
 
@@ -27,12 +20,7 @@ The challenge provides SSH access to a remote Linux machine. The goal is to util
 
 ## Task 1: How many visible files are there in the home directory (excluding `.` and `..`)?
 
-To determine the number of visible files in the home directory, we use the `ls` command:
-
-```bash
-ls
-```
-
+To determine the number of visible files in the home directory, we use the `ls` command.
 The output lists the visible files, excluding the `.` and `..` directory references.
 
 ![Files](/ctf/tryhackme/advent-of-cyber-1-2019/day-4-training/files.png)
@@ -41,11 +29,7 @@ The output lists the visible files, excluding the `.` and `..` directory referen
 
 ## Task 2: What is the content of `file5`?
 
-To read the contents of `file5`, we use the `cat` command:
-
-```bash
-cat file5
-```
+To read the contents of `file5`, we use the `cat` command.
 
 ![File5](/ctf/tryhackme/advent-of-cyber-1-2019/day-4-training/file5.png)
 

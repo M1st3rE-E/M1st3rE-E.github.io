@@ -1,15 +1,18 @@
 ---
-title: Jailbreak - Hack The Box
+clayout: ctf
+title: Jailbreak
 date: 2024-12-27
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Jailbreak
+      link: https://app.hackthebox.com/challenges/728
+      thumbnail: /ctf/hack-the-box/challenges/web/jailbreak/thumbnail.gif
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/728
+          thumbnail: /ctf/hack-the-box/challenges/web/jailbreak/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Jailbreak
-
-![Jailbreak - thumbnail](/ctf/hack-the-box/challenges/web/jailbreak/thumbnail.gif){style="width: 200px; height: 300px; display: block; margin: 0 auto;"}
 
 ## Challenge Description
 
@@ -117,12 +120,6 @@ Upon sending the XXE payload to the server, the response includes the contents o
 ```
 
 We successfully exploited the XXE vulnerability to retrieve the flag! 🎉
-
-<ChallengeCard 
-    challengeType="web" 
-    challengeName="Jailbreak"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/728"
-/>
 
 ## References
 

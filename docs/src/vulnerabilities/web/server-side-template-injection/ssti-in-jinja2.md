@@ -135,7 +135,7 @@ instead of <span v-pre>`{{ ''.__class__.__mro__[1].__subclasses__() }}`</span>.
 
 ## CTF Challenges
 
-- [Spookifier - Hack The Box](/ctf/hack-the-box/challenges/web/spookifier.md)
+- [Spookifier](/ctf/hack-the-box/challenges/web/spookifier.md)
 
 ## References
 

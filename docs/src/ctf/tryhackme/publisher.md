@@ -1,21 +1,17 @@
 ---
-title: Publisher - TryHackMe
+clayout: ctf
+title: Publisher
+type: TryHackMe
 date: 2025-03-30
+level: Easy
+icon: /ctf/tryhackme/publisher/icon-room.png
+image: /ctf/tryhackme/publisher/icon-room.png
+banner: /ctf/tryhackme/publisher/banner-room.png
+description: Test your enumeration skills on this boot-to-root machine.
+ctf-link: https://tryhackme.com/room/publisher
 ---
 
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Publisher"
-    roomIcon="/ctf/tryhackme/publisher/icon-room.png"
-    roomLink="https://tryhackme.com/room/publisher"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
-
-## Challenge description
+#### Challenge description
 
 The "Publisher" CTF machine is a simulated environment hosting some services. Through a series of enumeration techniques, including directory fuzzing and version identification, a vulnerability is discovered, allowing for Remote Code Execution (RCE). Attempts to escalate privileges using a custom binary are hindered by restricted access to critical system files and directories, necessitating a deeper exploration into the system's security profile to ultimately exploit a loophole that enables the execution of an unconfined bash shell and achieve privilege escalation.
 
@@ -236,7 +232,7 @@ To bypass this limitation, we leveraged the fact that the SUID binary (`run_cont
 
 This method works because:
 
-- It spawns a shell in a way that **preserves the SUID binary’s effective UID (root)**.
+- It spawns a shell in a way that **preserves the SUID binary's effective UID (root)**.
 - When used with `bash -p`, it tells Bash **not to drop privileges**, allowing us to act as root.
 
 Then, using that elevated shell:

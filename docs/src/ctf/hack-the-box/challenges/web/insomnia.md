@@ -1,15 +1,18 @@
 ---
-title: Insomnia - Hack The Box
+clayout: ctf
+title: Insomnia
 date: 2024-10-23
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Insomnia
+      link: https://app.hackthebox.com/challenges/610
+      thumbnail: /ctf/hack-the-box/challenges/web/insomnia/insomnia-thumbnail.gif
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/610
+          thumbnail: /ctf/hack-the-box/challenges/web/insomnia/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Insomnia
-
-![Insomnia - thumbnail](/ctf/hack-the-box/challenges/web/insomnia/insomnia-thumbnail.gif)
 
 ## Box description
 
@@ -135,12 +138,6 @@ administrator:
 Next, we set the JWT token in our browser's cookies and reload the profile page. The application verifies the token,
 sees that the username is administrator, and displays the flag.
 
-![Insomnia - flag](/ctf/hack-the-box/challenges/web/insomnia/insomnia-flag.png)
+![Insomnia - flag](/ctf/hack-the-box/challenges/web/insomnia/insomnia-flag.png){style="width: 100%;"}
 
 We successfully retrieve the flag! Now we can try our payload on the real **HTB** box to retrieve the flag
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Insomnia"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/610"
-/>

@@ -1,19 +1,14 @@
 ---
-title: mKingdom - TryHackMe
+clayout: ctf
+title: mKingdom
+type: TryHackMe
 date: 2025-04-05
+level: Easy
+icon: /ctf/tryhackme/mKingdom/icon-room.png
+image: /ctf/tryhackme/mKingdom/icon-room.png
+description: Beginner-friendly box inspired by a certain mustache man.
+ctf-link: https://tryhackme.com/room/mkingdom
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="mKingdom"
-    roomIcon="/ctf/tryhackme/mKingdom/icon-room.png"
-    roomLink="https://tryhackme.com/room/mkingdom"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 

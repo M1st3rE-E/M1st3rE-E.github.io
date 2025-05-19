@@ -1,19 +1,14 @@
 ---
-title: Whiterose - TryHackMe
+clayout: ctf
+title: Whiterose
+type: TryHackMe
 date: 2025-02-22
+level: Easy
+icon: /ctf/tryhackme/whiterose/icon-room.png
+image: /ctf/tryhackme/whiterose/icon-room.png
+description: Yet another Mr. Robot themed challenge.
+ctf-link: https://tryhackme.com/room/whiterose
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Whiterose"
-    roomIcon="/ctf/tryhackme/whiterose/icon-room.png"
-    roomLink="https://tryhackme.com/room/whiterose"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge description
 

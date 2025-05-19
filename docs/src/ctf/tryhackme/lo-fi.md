@@ -1,25 +1,17 @@
 ---
-title: Lo-Fi - TryHackMe
+clayout: ctf
+title: Lo-Fi
+type: TryHackMe
 date: 2025-01-20
+level: Easy
+icon: /ctf/tryhackme/lo-fi/icon-room.png
+image: /ctf/tryhackme/lo-fi/icon-room.png
+banner: /ctf/tryhackme/lo-fi/banner-room.png
+description: Want to hear some lo-fi beats, to relax or study to? We've got you covered!
+ctf-link: https://tryhackme.com/room/lofi
 ---
 
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Lo-Fi"
-    roomIcon="/ctf/tryhackme/lo-fi/icon-room.png"
-    roomLink="https://tryhackme.com/room/lofi"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
-
-## Challenge Information
-
-> *Want to hear some lo-fi beats, to relax or study to? We've got you covered!*
-
-## Challenge Overview
+# Challenge Overview
 
 The challenge presents a web application designed to let users listen to lo-fi music tracks. The goal is to identify and
 exploit a vulnerability in the application to retrieve the flag.

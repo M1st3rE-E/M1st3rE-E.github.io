@@ -1,13 +1,17 @@
 ---
-title: KORP Terminal - Hack The Box
+clayout: ctf
+title: KORP Terminal
 date: 2024-12-15
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: KORP Terminal
+      link: https://app.hackthebox.com/challenges/647
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/647
+          thumbnail: /ctf/hack-the-box/challenges/web/korp-terminal/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# KORP Terminal
 
 ## Challenge description
 
@@ -151,12 +155,6 @@ We successfully logged into the application and retrieved the flag:
 ```
 HTB{f4k3_fl4g}
 ```
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="KORP Terminal"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/647"
-/>
 
 ## References
 

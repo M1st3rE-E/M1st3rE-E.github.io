@@ -1,19 +1,16 @@
 ---
-title: Silver Platter - TryHackMe
+clayout: ctf
+title: Silver Platter
+type: TryHackMe
 date: 2025-02-27
+level: Easy
+icon: /ctf/tryhackme/silver-platter/icon-room.png
+image: /ctf/tryhackme/silver-platter/icon-room.png
+description: Can you breach the server?
+ctf-link: https://tryhackme.com/room/silverplatter
 ---
 
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
 
-<RoomCard
-    roomName="Silver Platter"
-    roomIcon="/ctf/tryhackme/silver-platter/icon-room.png"
-    roomLink="https://tryhackme.com/room/silverplatter"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge description
 

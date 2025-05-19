@@ -1,19 +1,15 @@
 ---
-title: The Sticker Shop - TryHackMe
+clayout: ctf
+title: The Sticker Shop
+type: TryHackMe
 date: 2025-03-02
+level: Easy
+icon: /ctf/tryhackme/the-sticker-shop/icon-room.png
+image: /ctf/tryhackme/the-sticker-shop/icon-room.png
+description: Can you exploit the sticker shop in order to capture the flag?
+ctf-link: https://tryhackme.com/room/thestickershop
 ---
 
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="The Sticker Shop"
-    roomIcon="/ctf/tryhackme/the-sticker-shop/icon-room.png"
-    roomLink="https://tryhackme.com/room/thestickershop"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge description
 

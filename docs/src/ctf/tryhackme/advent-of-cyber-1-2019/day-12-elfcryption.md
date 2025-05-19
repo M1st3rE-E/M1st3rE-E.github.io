@@ -1,17 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 12 - ElfCryption - TryHackMe
+clayout: ctf
+title: Day 12 - ElfCryption
+type: TryHackMe
 date: 2025-04-29
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-12-elfcryption/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-12-elfcryption/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="ElfCryption"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-12-elfcryption/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-/>
 
 # Challenge description
 

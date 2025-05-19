@@ -1,15 +1,18 @@
 ---
-title: Armaxis - Hack The Box
+clayout: ctf
+title: Armaxis
 date: 2025-02-14
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Armaxis
+      link: https://app.hackthebox.com/challenges/845
+      thumbnail: /ctf/hack-the-box/challenges/web/armaxis/thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/845
+          thumbnail: /ctf/hack-the-box/challenges/web/armaxis/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Armaxis
-
-![Armaxis - thumbnail](/ctf/hack-the-box/challenges/web/armaxis/thumbnail.png)
 
 ## Challenge description
 
@@ -150,10 +153,3 @@ HTB{FAKE_FLAG_FOR_TESTING}
 ```
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Armaxis"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/845"
-/>
-

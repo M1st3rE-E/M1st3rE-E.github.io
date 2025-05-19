@@ -60,6 +60,8 @@ export default {
 <style scoped>
 
 textarea {
+    min-height: 150px;
+    max-height: 300px;
     width: 100%;
     font-family: inherit;
     margin: 0.5em 0;
@@ -67,6 +69,7 @@ textarea {
     color: var(--vp-c-text-1);
     border-radius: 1rem;
     padding: 1rem;
+    resize: vertical;
 }
 
 textarea[readonly] {

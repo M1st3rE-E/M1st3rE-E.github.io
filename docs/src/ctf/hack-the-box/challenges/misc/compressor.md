@@ -1,13 +1,17 @@
 ---
-title: Compressor - Hack The Box
+clayout: ctf
+title: Compressor
 date: 2025-01-05
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: Compressor
+      link: https://app.hackthebox.com/challenges/358
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/358
+          thumbnail: /ctf/hack-the-box/challenges/misc/compressor/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Compressor
 
 ## Challenge Description
 
@@ -113,12 +117,6 @@ directory:
 cat /home/ctf/flag.txt
 HTB{f4k3_fLaG}
 ```
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="Compressor"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/358"
-/>
 
 ## References
 

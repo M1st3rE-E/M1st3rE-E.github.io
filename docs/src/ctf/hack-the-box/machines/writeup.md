@@ -1,9 +1,18 @@
 ---
-title: Writeup - Hack The Box
+clayout: ctf
+title: Writeup
 date: 2025-03-27
----
+image: /ctf/hack-the-box/machines/writeup/info-card.png
+type: Hack The Box
 
-![Information Card](/ctf/hack-the-box/machines/writeup/info-card.png)
+ctf:
+    - name: Writeup
+      link: https://app.hackthebox.com/machines/192
+      thumbnail: /ctf/hack-the-box/machines/writeup/info-card.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/machine/585215/192
+          thumbnail: /ctf/hack-the-box/machines/writeup/pwned.png
+---
 
 ## Enumeration
 

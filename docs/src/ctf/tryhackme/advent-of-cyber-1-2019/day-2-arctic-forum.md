@@ -1,19 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 2 - Arctic Forum - TryHackMe
+clayout: ctf
+title: Day 2 - Arctic Forum
+type: TryHackMe
 date: 2025-04-15
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-2-arctic-forum/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-2-arctic-forum/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Arctic Forum"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-2-arctic-forum/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge description
 

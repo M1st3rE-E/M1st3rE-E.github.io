@@ -1,13 +1,17 @@
 ---
-title: ShinyHunter - Hack The Box
+clayout: ctf
+title: ShinyHunter
 date: 2025-01-08
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: ShinyHunter
+      link: https://app.hackthebox.com/challenges/701
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/701
+          thumbnail: /ctf/hack-the-box/challenges/misc/shiny-hunter/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# ShinyHunter - Hack The Box
 
 ```
  ██████   █████  ███    ███ ███████ ██     ██  █████  ██    ██ ███████
@@ -234,12 +238,6 @@ if __name__ == "__main__":
 
 The script will connect to the server and extract the MAC address of the device. Then it will generate the time to wait
 to capture the shiny Poketmon. After that, it will automate the interaction with the game and capture the flag.
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="ShinyHunter"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/701"
-/>
 
 ## References
 

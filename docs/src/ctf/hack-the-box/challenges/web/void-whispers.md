@@ -1,13 +1,17 @@
 ---
-title: Void Whispers - Hack The Box
+clayout: ctf
+title: Void Whispers
 date: 2024-12-11
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Void Whispers
+      link: https://app.hackthebox.com/challenges/808
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/808
+          thumbnail: /ctf/hack-the-box/challenges/web/void-whispers/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Void Whispers 🎃
 
 ## Challenge description
 
@@ -118,12 +122,6 @@ https://webhook.site/5ae0b38c-d624-49c7-8c83-eb3b56728f18?flag=HTB{f4k3_fl4g_f0r
 ```
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Void Whispers"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/808"
-/>
 
 ## References
 

@@ -1,9 +1,18 @@
 ---
-title: Cap - Hack The Box
+clayout: ctf
+title: Cap
 date: 2025-03-12
----
+image: /ctf/hack-the-box/machines/cap/info-card.png
+type: Hack The Box
 
-![Cap - info card](/ctf/hack-the-box/machines/cap/info-card.png)
+ctf:
+    - name: Cap
+      link: https://app.hackthebox.com/machines/351
+      thumbnail: /ctf/hack-the-box/machines/cap/info-card.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/machine/585215/351
+          thumbnail: /ctf/hack-the-box/machines/cap/pwned.png
+---
 
 ## Enumeration
 
@@ -113,5 +122,3 @@ uid=0(root) gid=1001(nathan) groups=1001(nathan)
 ```
 
 We successfully escalate to root.
-
-![Cap - pwned](/ctf/hack-the-box/machines/cap/pwned.png)

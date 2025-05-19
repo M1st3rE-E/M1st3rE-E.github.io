@@ -1,15 +1,18 @@
 ---
-title: JScalc - Hack The Box
+clayout: ctf
+title: JScalc
 date: 2024-11-16
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: JScalc
+      link: https://app.hackthebox.com/challenges/551
+      thumbnail: /ctf/hack-the-box/challenges/web/jscalc/thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/551
+          thumbnail: /ctf/hack-the-box/challenges/web/jscalc/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# JScalc
-
-![JScalc - thumbnail](/ctf/hack-the-box/challenges/web/jscalc/thumbnail.png)
 
 ## Challenge description
 
@@ -81,12 +84,6 @@ file.
 ![JScalc - flag](/ctf/hack-the-box/challenges/web/jscalc/exploit.png)
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="jscalc"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/551"
-/>
 
 ## References
 

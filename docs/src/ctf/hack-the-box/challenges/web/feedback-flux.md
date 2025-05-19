@@ -1,13 +1,17 @@
 ---
-title: Feedback Flux - Hack The Box
+clayout: ctf
+title: Feedback Flux
 date: 2024-12-27
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Feedback Flux
+      link: https://app.hackthebox.com/challenges/782
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/782
+          thumbnail: /ctf/hack-the-box/challenges/web/feedback-flux/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Feedback Flux
 
 ## Challenge Description
 
@@ -194,12 +198,6 @@ After submitting the feedback, we can see that the flag is sent to our webhook.
 ![Feedback Flux - Flag](/ctf/hack-the-box/challenges/web/feedback-flux/flag.png)
 
 Using the same technique, we can steal the real flag.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Feedback Flux"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/782"
-/>
 
 ## Reference
 

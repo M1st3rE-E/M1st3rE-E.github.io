@@ -1,13 +1,17 @@
 ---
-title: Computational Recruiting - Hack The Box
+clayout: ctf
+title: Computational Recruiting
 date: 2025-01-04
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: Computational Recruiting
+      link: https://app.hackthebox.com/challenges/714
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/714
+          thumbnail: /ctf/hack-the-box/challenges/misc/computational-recruiting/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Computational Recruiting
 
 ## Challenge Description
 
@@ -108,12 +112,6 @@ After submitting the 14 candidates, we will get the flag.
 ```plaintext
 You have recruited the best possible companions. Before you leave, take this: HTB{t3xT_p4rS1ng_4nD_maTh_f0rmUl4s...}
 ```
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="Computational Recruiting"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/714"
-/>
 
 ## References
 

@@ -1,9 +1,18 @@
 ---
-title: Dog - Hack The Box
+clayout: ctf
+title: Dog
 date: 2025-05-13
----
+image: /ctf/hack-the-box/machines/dog/info-card.png
+type: Hack The Box
 
-![Dog - info card](/ctf/hack-the-box/machines/dog/info-card.png)
+ctf:
+    - name: Dog
+      link: https://app.hackthebox.com/machines/651
+      thumbnail: /ctf/hack-the-box/machines/dog/info-card.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/machine/585215/651  
+          thumbnail: /ctf/hack-the-box/machines/dog/pwned.png
+---
 
 # Enumeration and Initial Access
 

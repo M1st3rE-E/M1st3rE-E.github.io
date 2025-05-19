@@ -1,19 +1,14 @@
 ---
-title: Cheese CTF - TryHackMe
+clayout: ctf
+title: Cheese CTF
+type: TryHackMe
 date: 2025-02-25
+level: Easy
+icon: /ctf/tryhackme/cheese-ctf/icon-room.png
+image: /ctf/tryhackme/cheese-ctf/icon-room.png
+description: Inspired by the great cheese talk of THM!
+ctf-link: https://tryhackme.com/room/cheesectfv10
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Cheese CTF"
-    roomIcon="/ctf/tryhackme/cheese-ctf/icon-room.png"
-    roomLink="https://tryhackme.com/room/cheesectfv10"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 

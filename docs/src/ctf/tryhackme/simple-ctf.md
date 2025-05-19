@@ -1,19 +1,14 @@
 ---
-title: Simple CTF - TryHackMe
+clayout: ctf
+title: Simple CTF
+type: TryHackMe
 date: 2025-04-24
+level: Easy
+icon: /ctf/tryhackme/simple-ctf/icon-room.png
+image: /ctf/tryhackme/simple-ctf/icon-room.png
+description: A simple CTF challenge to test your skills.
+ctf-link: https://tryhackme.com/room/easyctf
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Simple CTF"
-    roomIcon="/ctf/tryhackme/simple-ctf/icon-room.png"
-    roomLink="https://tryhackme.com/room/easyctf"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge Walkthrough
 

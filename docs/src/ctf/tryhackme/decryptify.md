@@ -1,19 +1,15 @@
 ---
-title: Decryptify - TryHackMe
+clayout: ctf
+title: Decryptify
+type: TryHackMe
 date: 2025-04-12
+level: Medium
+icon: /ctf/tryhackme/decryptify/icon-room.png
+image: /ctf/tryhackme/decryptify/icon-room.png
+banner: /ctf/tryhackme/decryptify/banner-room.png
+description: Use your exploitation skills to uncover encrypted keys and get RCE.
+ctf-link: https://tryhackme.com/room/decryptify
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Decryptify"
-    roomIcon="/ctf/tryhackme/decryptify/icon-room.png"
-    roomLink="https://tryhackme.com/room/decryptify"
-    roomLevel="MEDIUM"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 

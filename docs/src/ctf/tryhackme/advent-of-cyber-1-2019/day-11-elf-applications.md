@@ -1,19 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 11 - Elf Applications - TryHackMe
+clayout: ctf
+title: Day 11 - Elf Applications
+type: TryHackMe
 date: 2025-04-27
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Elf Applications"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-11-elf-applications/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge description
 

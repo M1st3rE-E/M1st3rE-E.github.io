@@ -1,13 +1,17 @@
 ---
-title: Spellbound Servants - Hack The Box
+clayout: ctf
+title: Spellbound Servants
 date: 2025-01-01
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Spellbound Servants
+      link: https://app.hackthebox.com/challenges/626
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/626
+          thumbnail: /ctf/hack-the-box/challenges/web/spellbound-servants/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Spellbound Servants
 
 ## Challenge Description
 
@@ -123,12 +127,6 @@ The flag is copied to the publicly accessible directory, allowing it to be retri
 
 We successfully exploited the deserialization vulnerability to execute arbitrary commands on the server and retrieve the
 flag. :tada:
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Spellbound Servants"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/626"
-/>
 
 ## References
 

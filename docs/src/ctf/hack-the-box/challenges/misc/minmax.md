@@ -1,13 +1,17 @@
 ---
-title: MinMax - Hack The Box
+clayout: ctf
+title: MinMax
 date: 2025-01-05
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: MinMax
+      link: https://app.hackthebox.com/challenges/815
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/815
+          thumbnail: /ctf/hack-the-box/challenges/misc/minmax/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# MinMax
 
 ## Challenge Description
 
@@ -38,10 +42,3 @@ print(max(l)) # Print the maximum number
 Run the script and get the flag
 
 ![MinMax - Flag](/ctf/hack-the-box/challenges/misc/minmax/flag.png)
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="MinMax"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/815"
-/>
-

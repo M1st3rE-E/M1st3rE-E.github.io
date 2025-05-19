@@ -1,15 +1,18 @@
 ---
-title: PumpkinSpice - Hack The Box
+clayout: ctf
+title: PumpkinSpice
 date: 2024-12-31
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: PumpkinSpice
+      link: https://app.hackthebox.com/challenges/625
+      thumbnail: /ctf/hack-the-box/challenges/web/pumpkin-spice/thumbnail.svg
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/625
+          thumbnail: /ctf/hack-the-box/challenges/web/pumpkin-spice/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# PumpkinSpice
-
-![PumpkinSpice - Thumbnail](/ctf/hack-the-box/challenges/web/pumpkin-spice/thumbnail.svg){style="width: 100%; max-width: 400px; display: block; margin: 0 auto;"}
 
 ## Challenge Description
 
@@ -191,12 +194,6 @@ After inputting the script as an address, we can see the flag in the `webhook.si
 ![PumpkinSpice - Flag](/ctf/hack-the-box/challenges/web/pumpkin-spice/flag.png)
 
 We've successfully exploited the vulnerability and retrieved the flag.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="PumpkinSpice"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/625"
-/>
 
 ## References
 

@@ -1,19 +1,14 @@
 ---
-title: Lookup - TryHackMe
+clayout: ctf
+title: Lookup
+type: TryHackMe
 date: 2025-03-04
+level: Easy
+icon: /ctf/tryhackme/lookup/icon-room.png
+image: /ctf/tryhackme/lookup/icon-room.png
+description: Test your enumeration skills on this boot-to-root machine.
+ctf-link: https://tryhackme.com/room/lookup
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Lookup"
-    roomIcon="/ctf/tryhackme/lookup/icon-room.png"
-    roomLink="https://tryhackme.com/room/lookup"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge description
 
@@ -67,7 +62,7 @@ The scan reveals two open ports:
 
 ### Accessing the Web Application
 
-Navigating to the target machine’s IP address redirects us to `http://lookup.thm`. To access this domain, we add it to
+Navigating to the target machine's IP address redirects us to `http://lookup.thm`. To access this domain, we add it to
 our `/etc/hosts` file:
 
 ```bash

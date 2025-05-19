@@ -1,15 +1,18 @@
 ---
-title: PDFy - Hack The Box
+clayout: ctf
+title: PDFy
 date: 2024-10-22
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: PDFy
+      link: https://app.hackthebox.com/challenges/637
+      thumbnail: /ctf/hack-the-box/challenges/web/pdfy/pdfy-thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/637
+          thumbnail: /ctf/hack-the-box/challenges/web/pdfy/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# PDFy
-
-![PDFy - thumbnail](/ctf/hack-the-box/challenges/web/pdfy/pdfy-thumbnail.png)
 
 ## Box description
 
@@ -108,12 +111,6 @@ response, as seen in the PDF output:
 ![Flag - PDFy](/ctf/hack-the-box/challenges/web/pdfy/pdfy-flag-pdf.png)
 
 With this, we successfully extract the `/etc/passwd` file and capture the flag.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="PDFy"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/637"
-/>
 
 ## References
 

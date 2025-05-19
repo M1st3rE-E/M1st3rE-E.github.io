@@ -1,10 +1,12 @@
 <template>
-    <a :href="post.path" class="post-card">
+    <a :href="post.path" class="post-card"
+        :class="post.type.toLowerCase().replaceAll(' ', '-') + (post.image?.includes('/icon/') ? '-icon' : '')">
         <div class="post-image">
-            <img :src="postImage" :alt="post.title" />
+            <img :src="post.image ?? postImage" :alt="post.title" :style="{ transform: post.path.includes('machines') ? 'translateY(50px)' : 'none' }" />
         </div>
         <div class="post-content">
-            <div class="post-type">{{ postType }}</div>
+            <div class="post-type" :style="{ color: postTypeColor, '--before-color': postTypeColor }">{{ post.type }}
+            </div>
             <h3 class="post-title">{{ post.title }}</h3>
             <div class="post-date">{{ formatDate(post.date) }}</div>
         </div>
@@ -19,25 +21,24 @@ export default {
             type: Object,
             required: true
         },
-        postType: {
-            type: String,
-            required: true
-        }
     },
     computed: {
         postImage() {
-            // Return different images based on post type
-            switch (this.postType) {
+            switch (this.post.type) {
                 case "Hack The Box":
                     return "/icon/htb.png";
                 case "TryHackMe":
                     return "/icon/thm.png";
-                case "Vulnerabilities":
-                    return "/icon/vuln.png";
-                default:
-                    return "/icon/default.png";
             }
-        }
+        },
+        postTypeColor() {
+            switch (this.post.type) {
+                case "Hack The Box":
+                    return "#9FEF00";
+                case "TryHackMe":
+                    return "#C11312";
+            }
+        },
     },
     methods: {
         formatDate(date) {
@@ -55,8 +56,8 @@ export default {
 .post-card {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #1B2538, #203552);
     border-radius: 1rem;
+    border: 1px solid var(--vp-c-bg-mute);
     overflow: hidden;
     text-decoration: none;
     color: white;
@@ -72,19 +73,29 @@ export default {
 
 .post-image {
     width: 100%;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     background: #161618;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    position: relative;
 }
 
-.post-image img {
-    width: 100%;
-    height: 100%;
+.hack-the-box .post-image img {
+    min-height: 100%;
     object-fit: contain;
+}
+
+.hack-the-box-icon .post-image img {
+    min-height: 100%;
+    object-fit: contain;
+}
+
+.tryhackme .post-image img {
+    width: auto;
+    height: 100%;
+    padding: .2em;
 }
 
 .post-content {
@@ -101,16 +112,16 @@ export default {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .post-type::before {
-    align-self: center;
-    background-color: var(--vp-c-brand-1);
+    background-color: var(--before-color);
     content: "";
     height: 1px;
     margin-right: calc(1em * 0.5);
     width: 20px;
-    display: inline-flex;
 }
 
 .post-title {
@@ -132,4 +143,4 @@ export default {
         height: 150px;
     }
 }
-</style> 
+</style>

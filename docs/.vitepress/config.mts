@@ -11,6 +11,7 @@ export default defineConfig({
     description: "A VitePress Site",
     ignoreDeadLinks: true,
     appearance: "force-dark",
+    
     markdown: {
         config(md) {
             md.use(tabsMarkdownPlugin);
@@ -74,7 +75,7 @@ export default defineConfig({
                 text: "Penetration Testing",
                 items: [
                     {
-                        text: "<div style='display: flex; align-items: center'><img src='/icon/htb.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Hack The Box</div>",
+                        text: "<div style='display: flex; align-items: center'><img src='/icon/hack-the-box/htb.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Hack The Box</div>",
                         collapsed: true,
                         items: [
                             {
@@ -150,7 +151,7 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "<div style='display: flex; align-items: center'><img src='/icon/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe</div>",
+                        text: "<div style='display: flex; align-items: center'><img src='/icon/tryhackme/thm.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>TryHackMe</div>",
                         collapsed: true,
                         link: "/ctf/tryhackme",
                         items: [

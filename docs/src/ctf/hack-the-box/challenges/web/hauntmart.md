@@ -1,15 +1,18 @@
 ---
-title: HauntMart - Hack The Box
+clayout: ctf
+title: HauntMart
 date: 2024-12-30
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: HauntMart
+      link: https://app.hackthebox.com/challenges/622
+      thumbnail: /ctf/hack-the-box/challenges/web/hauntmart/thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/622
+          thumbnail: /ctf/hack-the-box/challenges/web/hauntmart/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# HauntMart
-
-![HauntMart - thumbnail](/ctf/hack-the-box/challenges/web/hauntmart/thumbnail.png)
 
 ## Challenge Description
 
@@ -190,12 +193,6 @@ the flag.
 ![HauntMart - Flag](/ctf/hack-the-box/challenges/web/hauntmart/flag.png)
 
 We successfully exploited the SSRF vulnerability to escalate privileges and retrieve the flag!
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="HauntMart"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/622"
-/>
 
 ## References
 

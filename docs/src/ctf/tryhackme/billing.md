@@ -1,19 +1,14 @@
 ---
-title: Billing - TryHackMe
+clayout: ctf
+title: Billing
+type: TryHackMe
 date: 2025-03-22
+level: Easy
+icon: /ctf/tryhackme/billing/icon-room.png
+image: /ctf/tryhackme/billing/icon-room.png
+description: Some mistakes can be costly.
+ctf-link: https://tryhackme.com/room/billing
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Billing"
-    roomIcon="/ctf/tryhackme/billing/icon-room.png"
-    roomLink="https://tryhackme.com/room/billing"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 

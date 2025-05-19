@@ -1,9 +1,18 @@
 ---
-title: Paper - Hack The Box
+clayout: ctf
+title: Paper
 date: 2025-03-14
----
+image: /ctf/hack-the-box/machines/paper/info-card.png
+type: Hack The Box
 
-![Cap - info card](/ctf/hack-the-box/machines/paper/info-card.png)
+ctf:
+    - name: Paper
+      link: https://app.hackthebox.com/machines/432
+      thumbnail: /ctf/hack-the-box/machines/paper/info-card.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/machine/585215/432
+          thumbnail: /ctf/hack-the-box/machines/paper/pwned.png
+---
 
 ## Enumeration
 

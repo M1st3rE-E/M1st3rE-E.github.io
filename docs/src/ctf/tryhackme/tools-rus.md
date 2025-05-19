@@ -1,19 +1,14 @@
 ---
-title: ToolsRus - TryHackMe
+clayout: ctf
+title: ToolsRus
+type: TryHackMe
 date: 2025-04-26
+level: Easy
+icon: /ctf/tryhackme/tools-rus/icon-room.png
+image: /ctf/tryhackme/tools-rus/icon-room.png
+description: Practise using tools such as dirbuster, hydra, nmap, nikto and metasploit
+ctf-link: https://tryhackme.com/room/toolsrus
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="ToolsRus"
-    roomIcon="/ctf/tryhackme/tools-rus/icon-room.png"
-    roomLink="https://tryhackme.com/room/toolsrus"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge Overview
 

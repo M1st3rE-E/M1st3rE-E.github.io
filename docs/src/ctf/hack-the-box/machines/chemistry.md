@@ -1,11 +1,18 @@
 ---
-title: Chemistry - Hack The Box
+clayout: ctf
+title: Chemistry
 date: 2024-10-24
+image: /ctf/hack-the-box/machines/chemistry/info-card.png
+type: Hack The Box
+
+ctf:
+    - name: Chemistry
+      link: https://app.hackthebox.com/machines/631
+      thumbnail: /ctf/hack-the-box/machines/chemistry/info-card.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/machine/585215/631
+          thumbnail: /ctf/hack-the-box/machines/chemistry/pwned.png
 ---
-
-# Chemistry
-
-![Chemistry - info card](/ctf/hack-the-box/machines/chemistry/info-card.png)
 
 ## Enumeration
 
@@ -220,8 +227,6 @@ ssh -i id_rsa root@10.10.11.38
 root@chemistry:~# cat root.txt
 [root-flag]
 ```
-
-![Chemistry - pwned](/ctf/hack-the-box/machines/chemistry/pwned.png)
 
 ## References
 

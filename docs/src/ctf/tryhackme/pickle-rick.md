@@ -1,23 +1,19 @@
 ---
-title: Cheese CTF - TryHackMe
+clayout: ctf
+title: Cheese CTF
+type: TryHackMe
 date: 2025-02-05
+level: Easy
+icon: /ctf/tryhackme/pickle-rick/icon-room.png
+image: /ctf/tryhackme/pickle-rick/icon-room.png
+banner: /ctf/tryhackme/pickle-rick/banner-room.png
+description: Can you find the three ingredients to reverse Rick's transformation into a pickle?
+ctf-link: https://tryhackme.com/room/picklerick
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Pickle Rick"
-    roomIcon="/ctf/tryhackme/pickle-rick/icon-room.png"
-    roomLink="https://tryhackme.com/room/picklerick"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 
-Pickle Rick is a **web application** challenge where we must find three **hidden ingredients** to reverse Rick’s
+Pickle Rick is a **web application** challenge where we must find three **hidden ingredients** to reverse Rick's
 transformation into a pickle. The challenge involves **web enumeration, command injection, and privilege escalation** to
 retrieve the ingredients.
 
@@ -31,7 +27,7 @@ nmap -sC -sV -v -oN pickle-rick.nmap 10.10.208.201
 
 Scan Results:
 
-```
+```bash
 Nmap scan report for 10.10.208.201
 Host is up (0.13s latency).
 Not shown: 998 closed tcp ports (reset)
@@ -51,7 +47,7 @@ Findings:
 
 ## Web Enumeration - Finding Login Credentials
 
-We visit the **website on port 80**, where we see the challenge’s objective: **find three ingredients to cure Rick**.
+We visit the **website on port 80**, where we see the challenge's objective: **find three ingredients to cure Rick**.
 
 ![Pickle Rick - Home Page](/ctf/tryhackme/pickle-rick/home-page.png)
 
@@ -68,7 +64,7 @@ Inspecting the **page source**, we find a **comment** revealing a username.
 
 ### Checking robots.txt for Clues
 
-Navigating to `/robots.txt`, we find Rick’s **favorite catchphrase**, which might be useful as a **password**:
+Navigating to `/robots.txt`, we find Rick's **favorite catchphrase**, which might be useful as a **password**:
 
 ```bash
 Wubbalubbadubdub

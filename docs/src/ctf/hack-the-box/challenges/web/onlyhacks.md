@@ -1,15 +1,18 @@
 ---
-title: OnlyHacks - Hack The Box
+clayout: ctf
+title: OnlyHacks
 date: 2025-02-18
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: OnlyHacks
+      link: https://app.hackthebox.com/challenges/860
+      thumbnail: /ctf/hack-the-box/challenges/web/onlyhacks/thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/860
+          thumbnail: /ctf/hack-the-box/challenges/web/onlyhacks/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# OnlyHacks
-
-![OnlyHacks - thumbnail](/ctf/hack-the-box/challenges/web/onlyhacks/thumbnail.png){width=250px height=100px style="display: block; margin: 0 auto"}
 
 ## Challenge Description
 
@@ -53,8 +56,4 @@ restricted conversations and obtain sensitive information like the flag.
 
 ![Accessing Unauthorized Chat](/ctf/hack-the-box/challenges/web/onlyhacks/flag.png)
 
-<ChallengeCard
-    challengeType="web"
-    challengeName="OnlyHacks"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/860"
-/>
+We successfully exploited the vulnerability to access the flag.

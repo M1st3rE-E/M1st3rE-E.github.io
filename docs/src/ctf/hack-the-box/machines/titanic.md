@@ -1,9 +1,18 @@
 ---
+clayout: ctf
 title: Titanic
 date: 2025-05-12
----
+image: /ctf/hack-the-box/machines/titanic/info-card.png
+type: Hack The Box
 
-![Titanic - info card](/ctf/hack-the-box/machines/titanic/info-card.png)
+ctf:
+    - name: Titanic
+      link: https://app.hackthebox.com/machines/648
+      thumbnail: /ctf/hack-the-box/machines/titanic/info-card.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/machine/585215/648
+          thumbnail: /ctf/hack-the-box/machines/titanic/pwned.png
+---
 
 # Enumeration
 

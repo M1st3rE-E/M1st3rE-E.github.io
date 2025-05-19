@@ -1,15 +1,18 @@
 ---
-title: Gunship - Hack The Box
+clayout: ctf
+title: Gunship
 date: 2024-10-20
+image: /ctf/hack-the-box/challenges/web/gunship/gunship.gif
+type: Hack The Box
+
+ctf:
+    - name: Gunship
+      link: https://app.hackthebox.com/challenges/245
+      thumbnail: /ctf/hack-the-box/challenges/web/gunship/gunship.gif
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/245
+          thumbnail: /ctf/hack-the-box/challenges/web/gunship/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Gunship
-
-![Gunship](/ctf/hack-the-box/challenges/web/gunship/gunship.gif)
 
 ## Challenge Description
 
@@ -120,12 +123,6 @@ HTB{f4k3_fl4g_f0r_t3st1ng}
 
 We got the flag!
 Now you can try this on the HTB server to get the real flag.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Gunship"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/245"
-/>
 
 ## References
 

@@ -1,13 +1,14 @@
 ---
-title: Bounty Hacker - TryHackMe
+clayout: ctf
+title: Bounty Hacker
+type: TryHackMe
 date: 2025-05-01
+level: Easy
+icon: /ctf/tryhackme/bounty-hacker/icon-room.png
+image: /ctf/tryhackme/bounty-hacker/icon-room.png
+description: You talked a big game about being the most elite hacker in the solar system. Prove it and claim your right to the status of Elite Bounty Hacker!
+ctf-link: https://tryhackme.com/room/cowboyhacker
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard roomName="Bounty Hacker" roomLevel="Easy" roomTechnology="Linux" roomLink="https://tryhackme.com/room/cowboyhacker" roomIcon="/ctf/tryhackme/bounty-hacker/icon-room.png" />
 
 # Challenge Description
 

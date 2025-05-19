@@ -1,20 +1,11 @@
 <template>
-    <textarea
-        v-model="input"
-        placeholder="Enter text here"
-        rows="5"
-    />
+    <textarea v-model="input" placeholder="Enter text here" rows="5" />
     <div class="buttons">
         <button @click="encode">Encode</button>
         <button @click="decode">Decode</button>
         <button @click="clear">Clear</button>
     </div>
-    <textarea
-        v-model="output"
-        placeholder="Output will appear here"
-        rows="5"
-        readonly
-    />
+    <textarea v-model="output" placeholder="Output will appear here" rows="5" readonly />
 </template>
 
 <script>
@@ -45,8 +36,9 @@ export default {
 </script>
 
 <style scoped>
-
 textarea {
+    min-height: 150px;
+    max-height: 300px;
     width: 100%;
     font-family: inherit;
     margin: 0.5em 0;
@@ -54,6 +46,7 @@ textarea {
     color: var(--vp-c-text-1);
     border-radius: 1rem;
     padding: 1rem;
+    resize: vertical;
 }
 
 textarea[readonly] {

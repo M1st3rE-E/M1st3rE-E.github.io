@@ -1,13 +1,18 @@
 ---
-title: Labyrinth Linguist - Hack The Box
+clayout: ctf
+title: Labyrinth Linguist
 date: 2024-12-29
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Labyrinth Linguist
+      link: https://app.hackthebox.com/challenges/649
+      thumbnail: /ctf/hack-the-box/challenges/web/labyrinth-linguist/overview.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/649
+          thumbnail: /ctf/hack-the-box/challenges/web/labyrinth-linguist/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Labyrinth Linguist
 
 ## Challenge Description
 
@@ -26,8 +31,6 @@ called **Voxalith**. Users can input text into a field, submit it, and view the 
 The application uses **Spring Boot** and **Apache Velocity** for templating, which is vulnerable to **Server-Side
 Template Injection (SSTI)**. The objective is to exploit this vulnerability to execute arbitrary commands and retrieve
 the flag.
-
-![Labyrinth Linguist - Overview](/ctf/hack-the-box/challenges/web/labyrinth-linguist/overview.png)
 
 ## Code Review
 
@@ -194,12 +197,6 @@ HTB{f4k3_fl4g_f0r_t35t1ng}
 ```
 
 We successfully exploited the SSTI vulnerability in Apache Velocity to retrieve the flag! 🎉
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Labyrinth Linguist"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/649"
-/>
 
 ## References
 

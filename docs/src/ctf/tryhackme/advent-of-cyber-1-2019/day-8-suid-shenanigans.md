@@ -1,19 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 8 - SUID Shenanigans - TryHackMe
+clayout: ctf
+title: Day 8 - SUID Shenanigans
+type: TryHackMe
 date: 2025-04-20
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-8-suid-shenanigans/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-8-suid-shenanigans/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="SUID Shenanigans"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-8-suid-shenanigans/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge description
 

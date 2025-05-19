@@ -1,19 +1,15 @@
 ---
-title: Neighbour - TryHackMe
+clayout: ctf
+title: Neighbour
+type: TryHackMe
 date: 2025-05-02
+level: Easy
+icon: /ctf/tryhackme/neighbour/icon-room.png
+image: /ctf/tryhackme/neighbour/icon-room.png
+banner: /ctf/tryhackme/neighbour/banner-room.png
+description: Check out our new cloud service, Authentication Anywhere. Can you find other user's secrets?
+ctf-link: https://tryhackme.com/room/neighbour
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Neighbour"
-    roomIcon="/ctf/tryhackme/neighbour/icon-room.png"
-    roomLink="https://tryhackme.com/room/neighbour"
-    roomLevel="EASY"
-    roomTechnology="Web"
-/>
 
 # Challenge Description
 

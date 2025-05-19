@@ -1,9 +1,14 @@
 ---
-title: Capture - TryHackMe
+clayout: ctf
+title: RootMe
+type: TryHackMe
 date: 2025-02-20
+level: Easy
+icon: /ctf/tryhackme/rootme/icon-room.png
+image: /ctf/tryhackme/rootme/icon-room.png
+description: A ctf for beginners, can you root me?
+ctf-link: https://tryhackme.com/room/rrootme
 ---
-
-# RootMe
 
 ## Challenge Description
 

@@ -1,19 +1,14 @@
 ---
-title: High School - TryHackMe
+clayout: ctf
+title: U.A. High School
+type: TryHackMe
 date: 2025-03-05
+level: Easy
+icon: /ctf/tryhackme/high-school/icon-room.png
+image: /ctf/tryhackme/high-school/icon-room.png
+description: Welcome to the web application of U.A., the Superhero Academy.
+ctf-link: https://tryhackme.com/room/yueiua
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="U.A. High School"
-    roomIcon="/ctf/tryhackme/high-school/icon-room.png"
-    roomLink="https://tryhackme.com/room/yueiua"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge description
 

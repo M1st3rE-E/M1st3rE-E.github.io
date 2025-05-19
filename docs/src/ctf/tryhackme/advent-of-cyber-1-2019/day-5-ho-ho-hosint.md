@@ -1,19 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 5 - Ho Ho Hosint - TryHackMe
+clayout: ctf
+title: Day 5 - Ho Ho Hosint
+type: TryHackMe
 date: 2025-04-19
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-5-ho-ho-hosint/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-5-ho-ho-hosint/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Ho Ho Hosint"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-5-ho-ho-hosint/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge description
 

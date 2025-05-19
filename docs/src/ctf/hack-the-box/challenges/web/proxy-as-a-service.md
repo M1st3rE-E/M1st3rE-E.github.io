@@ -1,15 +1,18 @@
 ---
-title: Proxy as a Service - Hack The Box
+clayout: ctf
+title: Proxy as a Service
 date: 2024-11-24
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Proxy as a Service
+      link: https://app.hackthebox.com/challenges/549
+      thumbnail: /ctf/hack-the-box/challenges/web/proxy-as-a-service/thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/549
+          thumbnail: /ctf/hack-the-box/challenges/web/proxy-as-a-service/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Proxy as a Service
-
-![Proxy as a Service - thumbnail](/ctf/hack-the-box/challenges/web/proxy-as-a-service/thumbnail.png)
 
 ## Challenge description
 
@@ -188,12 +191,6 @@ The response includes the environment variables, including the `FLAG`:
 
 We successfully retrieved the fake flag `HTB{f4k3_fl4g_f0r_t3st1ng}`.
 We can now use the same technique to retrieve the real flag on the HTB server.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="ProxyAsAService"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/549"
-/>
 
 ## References
 

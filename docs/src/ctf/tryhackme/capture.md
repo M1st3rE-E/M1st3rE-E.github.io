@@ -1,19 +1,14 @@
 ---
-title: Capture - TryHackMe
+clayout: ctf
+title: Capture
+type: TryHackMe
 date: 2025-02-04
+level: Easy
+icon: /ctf/tryhackme/capture/icon-room.png
+image: /ctf/tryhackme/capture/icon-room.png
+description: Can you bypass the login form?
+ctf-link: https://tryhackme.com/room/capture
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Capture"
-    roomIcon="/ctf/tryhackme/capture/icon-room.png"
-    roomLink="https://tryhackme.com/room/capture"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 

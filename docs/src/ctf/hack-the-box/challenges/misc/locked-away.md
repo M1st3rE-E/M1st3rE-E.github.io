@@ -1,13 +1,17 @@
 ---
-title: Locked Away - Hack The Box
+clayout: ctf
+title: Locked Away
 date: 2025-01-05
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: Locked Away
+      link: https://app.hackthebox.com/challenges/717
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/717
+          thumbnail: /ctf/hack-the-box/challenges/misc/locked-away/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Locked Away
 
 ## Challenge Description
 
@@ -128,9 +132,3 @@ globals().get(chr(111) + chr(112) + chr(101) + chr(110) + chr(95) + chr(99) + ch
    ```plaintext
    HTB{f4k3_fLaG_f0r_t3sTiNg}
    ```
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="Locked Away"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/717"
-/>

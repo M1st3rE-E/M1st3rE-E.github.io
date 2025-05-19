@@ -1,19 +1,14 @@
 ---
-title: Light - TryHackMe
+clayout: ctf
+title: Light
+type: TryHackMe
 date: 2025-01-19
+level: Easy
+icon: /ctf/tryhackme/light/icon-room.png
+image: /ctf/tryhackme/light/icon-room.png
+description: Welcome to the Light database application!
+ctf-link: https://tryhackme.com/room/lightroom
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Light"
-    roomIcon="/ctf/tryhackme/light/icon-room.png"
-    roomLink="https://tryhackme.com/r/room/lightroom"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Information
 
@@ -126,7 +121,7 @@ Finally, we extract the flag using a query that avoids the admin-specific condit
 Output:
 
 ```bash
-[REDACTED]
+[The flag]
 ```
 
 ## Reference

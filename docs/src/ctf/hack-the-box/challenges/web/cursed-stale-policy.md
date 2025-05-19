@@ -1,15 +1,18 @@
 ---
-title: Cursed Stale Policy - Hack The Box
+clayout: ctf
+title: Cursed Stale Policy
 date: 2024-12-27
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Cursed Stale Policy
+      link: https://app.hackthebox.com/challenges/811
+      thumbnail: /ctf/hack-the-box/challenges/web/cursed-stale-policy/thumbnail.gif
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/811
+          thumbnail: /ctf/hack-the-box/challenges/web/cursed-stale-policy/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Cursed Stale Policy
-
-![Cursed Stale Policy - thumbnail](/ctf/hack-the-box/challenges/web/cursed-stale-policy/thumbnail.gif){style="width: 250px; height: 250px; display: block; margin: 0 auto"}
 
 ## Challenge Description
 
@@ -172,12 +175,6 @@ HTB{f4k3_fl4g_f0r_t35t1ng}
 ```
 
 We can now use the same technique to get the real flag.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Cursed Stale Policy"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/811"
-/>
 
 ## Reference
 

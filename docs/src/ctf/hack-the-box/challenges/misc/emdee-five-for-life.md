@@ -1,13 +1,17 @@
 ---
-title: Emdee five for life - Hack The Box
+clayout: ctf
+title: Emdee five for life
 date: 2025-01-02
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+ctf:
+    - name: Emdee five for life
+      link: https://app.hackthebox.com/challenges/83
+      thumbnail: /ctf/hack-the-box/challenges/misc/emdee-five-for-live/overview.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/83
+          thumbnail: /ctf/hack-the-box/challenges/misc/emdee-five-for-live/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Emdee five for life
 
 ## Challenge Description
 
@@ -18,8 +22,6 @@ Can you encrypt fast enough?
 This challenge presents a web application that generates random strings. To solve the challenge, players must hash the
 string using the MD5 algorithm and submit the hash within a time limit. Of course, the time limit is so short that
 manual hashing is impractical, requiring an automated approach.
-
-![Emdee five for life - Overview](/ctf/hack-the-box/challenges/misc/emdee-five-for-live/overview.png){style="display: block; margin: 0 auto"}
 
 ## Automation Script (python)
 
@@ -81,12 +83,6 @@ challenge.
 $ python3 main.py
 Extracted string -> HTB{f4k3_fl4g}
 ```
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="Emdee five for life"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/67"
-/>
 
 ## References
 

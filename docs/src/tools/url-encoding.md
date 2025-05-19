@@ -4,7 +4,7 @@ title: URL Encoder/Decoder Tool
 
 [//]: # (@formatter:off)
 <script setup>
-import UrlTool from "../../.vitepress/components/UrlTool.vue";
+import UrlTool from "../../.vitepress/components/tools/UrlTool.vue";
 </script>
 [//]: # (@formatter:on)
 

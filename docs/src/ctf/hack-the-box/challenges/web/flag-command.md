@@ -1,15 +1,18 @@
 ---
-title: Flag Command - Hack The Box
+clayout: ctf
+title: Flag Command
 date: 2024-12-10
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Flag Command
+      link: https://app.hackthebox.com/challenges/646
+      thumbnail: /ctf/hack-the-box/challenges/web/flag-command/thumbnail.png
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/646
+          thumbnail: /ctf/hack-the-box/challenges/web/flag-command/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Flag Command
-
-![Flag Command - thumbnail](/ctf/hack-the-box/challenges/web/flag-command/thumbnail.png)
 
 ## Challenge Description
 
@@ -107,9 +110,3 @@ By entering the secret command `"Blip-blop, in a pickle with a hiccup! Shmiggity
 the application reveals the flag:
 
 ![Flag Command - Flag](/ctf/hack-the-box/challenges/web/flag-command/flag.png)
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Flag Command"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/646"
-/>

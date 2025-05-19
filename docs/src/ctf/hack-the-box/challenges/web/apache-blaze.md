@@ -1,15 +1,18 @@
 ---
-title: Apache blaze - Hack The Box
+clayout: ctf
+title: Apache blaze
 date: 2024-12-09
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Apache Blaze
+      link: https://app.hackthebox.com/challenges/546
+      thumbnail: /ctf/hack-the-box/challenges/web/apache-blaze/thumbnail.gif
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/546
+          thumbnail: /ctf/hack-the-box/challenges/web/apache-blaze/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Apache Blaze
-
-![Apache Blaze - thumbnail](/ctf/hack-the-box/challenges/web/apache-blaze/thumbnail.gif){width=250px height=100px style="display: block; margin: 0 auto"}
 
 ## Challenge description
 
@@ -91,12 +94,6 @@ back-end to misinterpret the request.
    ```
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="ApacheBlaze"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/546"
-/>
 
 ## References
 

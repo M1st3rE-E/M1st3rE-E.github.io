@@ -1,13 +1,17 @@
 ---
-title: Addition - Hack The Box
+clayout: ctf
+title: Addition
 date: 2025-01-04
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: Addition
+      link: https://app.hackthebox.com/challenges/814
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/814
+          thumbnail: /ctf/hack-the-box/challenges/misc/addition/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Addition
 
 ## Challenge Description
 
@@ -79,10 +83,3 @@ int main() {
 :::
 
 After sumbitting the script, we will get the flag.
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="Addition"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/814"
-/>
-

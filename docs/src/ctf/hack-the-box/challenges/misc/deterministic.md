@@ -1,13 +1,17 @@
 ---
-title: Deterministic - Hack The Box
+clayout: ctf
+title: Deterministic
 date: 2025-01-13
+image: /icon/hack-the-box/misc.svg
+type: Hack The Box
+
+ctf:
+    - name: Deterministic
+      link: https://app.hackthebox.com/challenges/139
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/139
+          thumbnail: /ctf/hack-the-box/challenges/misc/deterministic/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Deterministic - Hack The Box
 
 ## Challenge Description
 
@@ -122,12 +126,6 @@ After running the script, we recover the key and the flag:
 Key: 105
 You managed to pass through all the correct states of the automata and reach the final state. Many people tried to do this by hand and failed.. Only the real ones managed to reach the final state. You also found the secret key to decrypt the message. You are truly worthy!! You should be rewarded with this gift! The passphrase to unlock the door is: HTB{f4k3_fl4g}
 ```
-
-<ChallengeCard
-    challengeType="misc"
-    challengeName="Deterministic"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/139"
-/>
 
 ## References
 

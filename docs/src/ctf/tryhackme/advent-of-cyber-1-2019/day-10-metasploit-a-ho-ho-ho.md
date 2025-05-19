@@ -1,19 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 10 - Metasploit-a-ho-ho-ho - TryHackMe
+clayout: ctf
+title: Day 10 - Metasploit-a-ho-ho-ho
+type: TryHackMe
 date: 2025-04-20
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-10-metasploit-a-ho-ho-ho/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-10-metasploit-a-ho-ho-ho/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Metasploit-a-ho-ho-ho"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-10-metasploit-a-ho-ho-ho/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge description
 

@@ -1,13 +1,17 @@
 ---
-title: Unholy Union - Hack The Box
+clayout: ctf
+title: Unholy Union
 date: 2024-12-11
+image: /icon/hack-the-box/web.svg
+type: Hack The Box
+
+ctf:
+    - name: Unholy Union
+      link: https://app.hackthebox.com/challenges/809
+      pwned:
+        - link: https://www.hackthebox.com/achievement/challenge/585215/809
+          thumbnail: /ctf/hack-the-box/challenges/web/unholy-union/pwned.png
 ---
-
-<script setup>
-    import ChallengeCard from "../../../../../.vitepress/components/ChallengeCard.vue";
-</script>
-
-# Unholy Union 🎃
 
 ## Challenge description
 
@@ -137,12 +141,6 @@ When the payload is sent as the `query` parameter, the response reveals the flag
 ```
 
 With the fake flag retrieved, we can use the same technique to get the real flag on the HTB server.
-
-<ChallengeCard
-    challengeType="web"
-    challengeName="Unholy Union"
-    htbCardLink="https://www.hackthebox.com/achievement/challenge/585215/809"
-/>
 
 ## References
 

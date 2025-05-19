@@ -1,19 +1,14 @@
 ---
-title: Advent of Cyber 1 - 2019 - Day 7 - Killing Up - TryHackMe
+clayout: ctf
+title: Day 7 - Killing Up
+type: TryHackMe
 date: 2025-04-20
+level: Easy
+icon: /ctf/tryhackme/advent-of-cyber-1-2019/day-7-killing-up/icon-room.png
+image: /ctf/tryhackme/advent-of-cyber-1-2019/day-7-killing-up/icon-room.png
+banner: /ctf/tryhackme/advent-of-cyber-1-2019/banner-room.png
+ctf-link: https://tryhackme.com/room/25daysofchristmas
 ---
-
-<script setup>
-    import RoomCard from "../../../../.vitepress/components/thm/RoomCard.vue";
-</script>
-
-<RoomCard
-    roomName="Killing Up"
-    roomIcon="/ctf/tryhackme/advent-of-cyber-1-2019/day-7-killing-up/icon-room.png"
-    roomLink="https://tryhackme.com/room/25daysofchristmas"
-    roomLevel="EASY"
-    roomTechnology="Linux"
-/>
 
 # Challenge description
 
