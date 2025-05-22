@@ -6,7 +6,7 @@
             <strong>{{ ctfData.name }}</strong> box on Hack The Box.
         </p>
         <div class="room-banner-container" v-if="ctfData.thumbnail">
-            <img :src="ctfData.thumbnail" alt="Room Banner" class="room-banner" />
+            <img :src="ctfData.thumbnail" alt="Room Banner" class="room-banner medium-zoom-image" />
         </div>
         <a :href="ctfData.link" target="_blank">
             <p class="ctf-link-text">{{ ctfData.link }}</p>
@@ -17,10 +17,9 @@
         <div class="owned-container" @click="openOwnedLink">
             <div class="owned-left-container">
                 <div class="owned-text-container">
-                    <h1 class="owned-title">Owned {{ ctfData.name }} on Hack The Box</h1>
+                    <h1 class="owned-title">Successfully Pwned {{ ctfData.name }}</h1>
                     <p class="owned-description">
-                        I just pwnd this machine
-                        <a :href="ctfData.pwned.link" target="_blank">here</a>.
+                        Completed and pwned this challenge on Hack The Box.
                     </p>
                 </div>
 

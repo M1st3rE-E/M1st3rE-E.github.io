@@ -146,6 +146,7 @@ export default defineConfig({
                                     { text: "Writeup", link: "/ctf/hack-the-box/machines/writeup" },
                                     { text: "Titanic", link: "/ctf/hack-the-box/machines/titanic" },
                                     { text: "Dog", link: "/ctf/hack-the-box/machines/dog" },
+                                    { text: "Code", link: "/ctf/hack-the-box/machines/code" },
                                 ],
                             },
                         ],
