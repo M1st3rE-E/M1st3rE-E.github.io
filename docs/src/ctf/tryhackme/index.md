@@ -30,3 +30,4 @@ This section contains write-ups for challenges from the [Try Hack Me](https://tr
 |  18   | [Simple CTF](https://tryhackme.com/room/simplectf)                       | Easy       | [Simple CTF](./simple-ctf)                           |
 |  19   | [ToolsRus](https://tryhackme.com/room/toolsrus)                          | Easy       | [ToolsRus](./tools-rus)                              |
 |  20   | [Billing](https://tryhackme.com/room/billing)                            | Easy       | [Billing](./billing)                                 |
+|  21   | [Neighbour](https://tryhackme.com/room/neighbour)                        | Easy       | [Neighbour](./neighbour)                             |
