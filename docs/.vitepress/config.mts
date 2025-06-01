@@ -148,6 +148,7 @@ export default defineConfig({
                                     { text: "Dog", link: "/ctf/hack-the-box/machines/dog" },
                                     { text: "Code", link: "/ctf/hack-the-box/machines/code" },
                                     { text: "Noctural", link: "/ctf/hack-the-box/machines/noctural" },
+                                    { text: "Cypher", link: "/ctf/hack-the-box/machines/cypher" },
                                 ],
                             },
                         ],
