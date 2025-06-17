@@ -1,10 +1,9 @@
 ---
-clayout: ctf
-title: Try Hack Me
-date: 2025-04-29
-icon: /icon/tryhackme/thm.png
-banner: /icon/tryhackme/banner.png
+aside: false
+pageClass: custom-page
 ---
+
+![Try Hack Me](/ctf/tryhackme/banner.png){style="display: block; margin: auto; border-radius: 10px;"}
 
 This section contains write-ups for challenges from the [Try Hack Me](https://tryhackme.com/) platform.
 

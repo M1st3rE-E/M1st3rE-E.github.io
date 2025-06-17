@@ -75,7 +75,7 @@ export default defineConfig({
                 text: "Penetration Testing",
                 items: [
                     {
-                        text: "<div style='display: flex; align-items: center'><img src='/icon/hack-the-box/htb.png' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Hack The Box</div>",
+                        text: "<div style='display: flex; align-items: center'><img src='/icon/hack-the-box/htb.svg' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Hack The Box</div>",
                         collapsed: true,
                         items: [
                             {
@@ -139,6 +139,7 @@ export default defineConfig({
                             {
                                 text: "Machines",
                                 collapsed: true,
+                                link: "/ctf/hack-the-box/machines",
                                 items: [
                                     { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
                                     { text: "Cap", link: "/ctf/hack-the-box/machines/cap" },

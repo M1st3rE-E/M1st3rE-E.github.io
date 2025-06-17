@@ -26,9 +26,9 @@ export default {
         postImage() {
             switch (this.post.type) {
                 case "Hack The Box":
-                    return "/icon/htb.png";
+                    return "/icon/hack-the-box/htb.svg";
                 case "TryHackMe":
-                    return "/icon/thm.png";
+                    return "/icon/tryhackme/thm.png";
             }
         },
         postTypeColor() {
