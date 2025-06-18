@@ -55,7 +55,7 @@ const ctfData = computed(() => {
 })
 
 const openOwnedLink = () => {
-    window.open(frontmatter.value["owned-link"], "_blank");
+    window.open(frontmatter.value.ctf[0].pwned[0].link, "_blank");
 };
 
 const getCTFType = () => {
