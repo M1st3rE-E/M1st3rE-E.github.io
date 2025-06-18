@@ -151,6 +151,7 @@ export default defineConfig({
                                     { text: "Noctural", link: "/ctf/hack-the-box/machines/noctural" },
                                     { text: "Cypher", link: "/ctf/hack-the-box/machines/cypher" },
                                     { text: "Cat", link: "/ctf/hack-the-box/machines/cat" },
+                                    { text: "BoardLight", link: "/ctf/hack-the-box/machines/board-light" },
                                 ],
                             },
                         ],
