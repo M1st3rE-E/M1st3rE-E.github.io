@@ -27,7 +27,9 @@ export default {
 	setup() {
 		const route = useRoute();
 		const initZoom = () => {
-			mediumZoom(".content-container img", { background: "var(--vp-c-bg)" });
+			mediumZoom(".content-container img:not(.owned-icon):not(.owned-right-container img)", { 
+				background: "var(--vp-c-bg)" 
+			});
 		};
 		onMounted(() => {
 			initZoom();
