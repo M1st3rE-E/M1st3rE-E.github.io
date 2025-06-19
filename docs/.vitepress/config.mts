@@ -6,6 +6,15 @@ import { createContentLoader, defineConfig, type SiteConfig } from "vitepress";
 
 const hostname: string = "https://retherszu.github.io";
 
+// Helper function to create machine entries with icons
+function createMachineEntry(name: string, slug: string) {
+    const iconPath = `/ctf/hack-the-box/machines/${slug}/icon.png`;
+    return {
+        text: `<div style='display: flex; align-items: center'><img src='${iconPath}' style='width: 24px; height: 24px; vertical-align: middle; margin-right: 5px;'/>${name}</div>`,
+        link: `/ctf/hack-the-box/machines/${slug}`
+    };
+}
+
 export default defineConfig({
     title: "Pentest Everything",
     description: "A VitePress Site",
@@ -141,17 +150,18 @@ export default defineConfig({
                                 collapsed: true,
                                 link: "/ctf/hack-the-box/machines",
                                 items: [
-                                    { text: "Chemistry", link: "/ctf/hack-the-box/machines/chemistry" },
-                                    { text: "Cap", link: "/ctf/hack-the-box/machines/cap" },
-                                    { text: "Paper", link: "/ctf/hack-the-box/machines/paper" },
-                                    { text: "Writeup", link: "/ctf/hack-the-box/machines/writeup" },
-                                    { text: "Titanic", link: "/ctf/hack-the-box/machines/titanic" },
-                                    { text: "Dog", link: "/ctf/hack-the-box/machines/dog" },
-                                    { text: "Code", link: "/ctf/hack-the-box/machines/code" },
-                                    { text: "Noctural", link: "/ctf/hack-the-box/machines/noctural" },
-                                    { text: "Cypher", link: "/ctf/hack-the-box/machines/cypher" },
-                                    { text: "Cat", link: "/ctf/hack-the-box/machines/cat" },
-                                    { text: "BoardLight", link: "/ctf/hack-the-box/machines/board-light" },
+                                    createMachineEntry("Chemistry", "chemistry"),
+                                    createMachineEntry("Cap", "cap"),
+                                    createMachineEntry("Paper", "paper"),
+                                    createMachineEntry("Writeup", "writeup"),
+                                    createMachineEntry("Titanic", "titanic"),
+                                    createMachineEntry("Dog", "dog"),
+                                    createMachineEntry("Code", "code"),
+                                    createMachineEntry("Noctural", "noctural"),
+                                    createMachineEntry("Cypher", "cypher"),
+                                    createMachineEntry("Cat", "cat"),
+                                    createMachineEntry("BoardLight", "board-light"),
+                                    createMachineEntry("Cronos", "cronos"),
                                 ],
                             },
                         ],
