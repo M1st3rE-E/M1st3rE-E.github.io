@@ -314,3 +314,7 @@ a:hover h6 {
 .medium-zoom-image--opened {
     z-index: 31;
 }
+
+.text {
+    display: flex;
+}

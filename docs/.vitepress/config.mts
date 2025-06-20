@@ -8,10 +8,9 @@ const hostname: string = "https://retherszu.github.io";
 
 // Helper function to create machine entries with icons
 function createMachineEntry(name: string, slug: string) {
-    const iconPath = `/ctf/hack-the-box/machines/${slug}/icon.png`;
     return {
-        text: `<div style='display: flex; align-items: center'><img src='${iconPath}' style='width: 24px; height: 24px; vertical-align: middle; margin-right: 5px;'/>${name}</div>`,
-        link: `/ctf/hack-the-box/machines/${slug}`
+        text: `<img src='/ctf/hack-the-box/machines/${slug}/icon.png' style='width: 24px; height: 24px; vertical-align: middle; margin-right: 5px;'/>${name}`,
+        link: `/ctf/hack-the-box/machines/${slug}`,
     };
 }
 
