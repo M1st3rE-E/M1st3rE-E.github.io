@@ -315,6 +315,19 @@ a:hover h6 {
     z-index: 31;
 }
 
-.text {
-    display: flex;
+.text, .title {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.VPLink.link.pager-link.prev .title {
+    margin-top: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.VPLink.link.pager-link.next .title {
+    margin-top: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
 }
