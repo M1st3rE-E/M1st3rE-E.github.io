@@ -87,7 +87,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {
-                                text: "Challenges",
+                                text: "<div style='display: flex; align-items: center'><img src='/icon/hack-the-box/ic-challenges.svg' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Challenges</div>",
                                 link: "/ctf/hack-the-box/challenges",
                                 collapsed: true,
                                 items: [
@@ -145,7 +145,7 @@ export default defineConfig({
                                 ],
                             },
                             {
-                                text: "Machines",
+                                text: "<div style='display: flex; align-items: center'><img src='/icon/hack-the-box/ic-machines.svg' style='width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;'/>Machines</div>",
                                 collapsed: true,
                                 link: "/ctf/hack-the-box/machines",
                                 items: [
