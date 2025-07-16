@@ -21,7 +21,7 @@ export default {
     },
     computed: {
         sortedPosts() {
-            // Sort posts by date in descending order and take the first 3
+            // Sort posts by date in descending order and take the first 5
             return this.posts
                 .sort((a, b) => new Date(b.date) - new Date(a.date))
                 .slice(0, 5);
