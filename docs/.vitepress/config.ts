@@ -158,6 +158,7 @@ export default defineConfig({
                                     createMachineEntry("Dog", "dog"),
                                     createMachineEntry("Code", "code"),
                                     createMachineEntry("Noctural", "noctural"),
+                                    createMachineEntry("Planning", "planning"),
                                 ],
                             },
                         ],
