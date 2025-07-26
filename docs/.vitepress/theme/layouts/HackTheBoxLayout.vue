@@ -71,6 +71,15 @@ const getCTFType = () => {
 </script>
 
 <style scoped>
+
+.owned-container:hover {
+    border: 1px solid var(--vp-c-brand);
+}
+
+.owned-container:hover .owned-title {
+    color: var(--vp-c-brand)!important;
+}
+
 .room-banner-container {
     border-radius: 1rem;
     overflow: hidden;
@@ -112,6 +121,7 @@ const getCTFType = () => {
     margin: 1rem 0;
     cursor: pointer;
     overflow: hidden;
+    transition: border 0.3s ease;
 }
 
 .owned-left-container {
@@ -152,6 +162,7 @@ const getCTFType = () => {
     font-size: 20px;
     font-weight: 700;
     color: white;
+    transition: color 0.3s ease;
 }
 
 .room-title {
