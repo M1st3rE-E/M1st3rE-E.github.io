@@ -1,7 +1,7 @@
 ---
 clayout: ctf
 title: Planning
-date: 2025-03-12
+date: 2025-07-26
 image: /ctf/hack-the-box/machines/planning/info-card.png
 type: Hack The Box
 
