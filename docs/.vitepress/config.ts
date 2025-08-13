@@ -189,6 +189,7 @@ export default defineConfig({
                             { text: "ToolsRus", link: "/ctf/tryhackme/tools-rus" },
                             { text: "Bounty Hacker", link: "/ctf/tryhackme/bounty-hacker" },
                             { text: "Neighbour", link: "/ctf/tryhackme/neighbour" },
+                            { text: "Compiled", link: "/ctf/tryhackme/compiled" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
