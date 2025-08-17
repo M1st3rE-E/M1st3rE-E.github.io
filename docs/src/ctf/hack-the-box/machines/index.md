@@ -3,13 +3,14 @@ aside: false
 pageClass: custom-page
 ---
 
-![Hack the Box](/ctf/hack-the-box/banner.png){style="display: block; margin: auto; border-radius: 10px;"}
+![Hack the Box](/ctf/hack-the-box/machines/banner.png){style="display: block; margin: auto; border-radius: 1rem;"}
 
 This section contains write-ups for machines from the [Hack the Box](https://app.hackthebox.com/machines) platform.
 
 |   #   | Machine                                               | Difficulty | Write-up             |
 | :---: | ----------------------------------------------------- | ---------- | -------------------- |
 |  11   | [Cronos](https://app.hackthebox.com/machines/11)      | Easy       | [...](./cronos)      |
+|  26   | [Bank](https://app.hackthebox.com/machines/26)        | Easy       | [...](./bank)        |
 |  192  | [Writeup](https://app.hackthebox.com/machines/192)    | Easy       | [...](./writeup)     |
 |  351  | [Cap](https://app.hackthebox.com/machines/351)        | Easy       | [...](./cap)         |
 |  432  | [Paper](https://app.hackthebox.com/machines/432)      | Easy       | [...](./paper)       |
