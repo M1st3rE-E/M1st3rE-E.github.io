@@ -10,7 +10,7 @@ ctf:
       link: https://app.hackthebox.com/machines/432
       thumbnail: /ctf/hack-the-box/machines/paper/info-card.png
       pwned:
-        - link: https://www.hackthebox.com/achievement/machine/585215/432
+        - link: https://labs.hackthebox.com/achievement/machine/585215/432
           thumbnail: /ctf/hack-the-box/machines/paper/pwned.png
 ---
 

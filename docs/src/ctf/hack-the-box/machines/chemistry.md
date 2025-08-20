@@ -10,7 +10,7 @@ ctf:
       link: https://app.hackthebox.com/machines/631
       thumbnail: /ctf/hack-the-box/machines/chemistry/info-card.png
       pwned:
-        - link: https://www.hackthebox.com/achievement/machine/585215/631
+        - link: https://labs.hackthebox.com/achievement/machine/585215/631
           thumbnail: /ctf/hack-the-box/machines/chemistry/pwned.png
 ---
 

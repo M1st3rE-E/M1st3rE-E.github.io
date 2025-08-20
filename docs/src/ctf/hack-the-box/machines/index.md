@@ -11,6 +11,7 @@ This section contains write-ups for machines from the [Hack the Box](https://app
 | :---: | ----------------------------------------------------- | ---------- | -------------------- |
 |  11   | [Cronos](https://app.hackthebox.com/machines/11)      | Easy       | [...](./cronos)      |
 |  26   | [Bank](https://app.hackthebox.com/machines/26)        | Easy       | [...](./bank)        |
+|  48   | [Blocky](https://app.hackthebox.com/machines/48)      | Easy       | [...](./blocky)      |
 |  192  | [Writeup](https://app.hackthebox.com/machines/192)    | Easy       | [...](./writeup)     |
 |  351  | [Cap](https://app.hackthebox.com/machines/351)        | Easy       | [...](./cap)         |
 |  432  | [Paper](https://app.hackthebox.com/machines/432)      | Easy       | [...](./paper)       |
@@ -22,3 +23,4 @@ This section contains write-ups for machines from the [Hack the Box](https://app
 |  651  | [Dog](https://app.hackthebox.com/machines/651)        | Easy       | [...](./dog)         |
 |  653  | [Code](https://app.hackthebox.com/machines/653)       | Easy       | [...](./code)        |
 |  656  | [Noctural](https://app.hackthebox.com/machines/656)   | Easy       | [...](./noctural)    |
+|  660  | [Planning](https://app.hackthebox.com/machines/660)   | Easy       | [...](./planning)    |
