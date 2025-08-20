@@ -146,6 +146,7 @@ export default defineConfig({
                                 collapsed: true,
                                 link: "/ctf/hack-the-box/machines",
                                 items: [
+                                    createMachineEntry("Lame", "lame"),
                                     createMachineEntry("Cronos", "cronos"),
                                     createMachineEntry("Bank", "bank"),
                                     createMachineEntry("Blocky", "blocky"),

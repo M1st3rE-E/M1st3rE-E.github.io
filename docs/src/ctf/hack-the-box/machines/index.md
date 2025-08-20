@@ -9,6 +9,7 @@ This section contains write-ups for machines from the [Hack the Box](https://app
 
 |   #   | Machine                                               | Difficulty | Write-up             |
 | :---: | ----------------------------------------------------- | ---------- | -------------------- |
+|  1    | [Lame](https://app.hackthebox.com/machines/1)         | Easy       | [...](./lame)        |
 |  11   | [Cronos](https://app.hackthebox.com/machines/11)      | Easy       | [...](./cronos)      |
 |  26   | [Bank](https://app.hackthebox.com/machines/26)        | Easy       | [...](./bank)        |
 |  48   | [Blocky](https://app.hackthebox.com/machines/48)      | Easy       | [...](./blocky)      |
