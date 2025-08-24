@@ -147,6 +147,7 @@ export default defineConfig({
                                 link: "/ctf/hack-the-box/machines",
                                 items: [
                                     createMachineEntry("Lame", "lame"),
+                                    createMachineEntry("Legacy", "legacy"),
                                     createMachineEntry("Popcorn", "popcorn"),
                                     createMachineEntry("Cronos", "cronos"),
                                     createMachineEntry("Bank", "bank"),
@@ -233,8 +234,14 @@ export default defineConfig({
             {
                 text: "Tools",
                 items: [
-                    { text: "Url encoding", link: "/tools/url-encoding" },
-                    { text: "Base64 encoding", link: "/tools/base64-encoding" },
+                    {
+                        text: "Online Tools",
+                        collapsed: true,
+                        items: [
+                            { text: "Url encoding", link: "/tools/online-tools/url-encoding" },
+                            { text: "Base64 encoding", link: "/tools/online-tools/base64-encoding" },
+                        ],
+                    },
                 ],
             },
         ],

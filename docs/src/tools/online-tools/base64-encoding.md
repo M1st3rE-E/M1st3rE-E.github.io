@@ -4,7 +4,7 @@ title: Base64 Encoder/Decoder Tool
 
 [//]: # (@formatter:off)
 <script setup>
-import Base64Tool from "../../.vitepress/components/tools/Base64Tool.vue";
+import Base64Tool from "../../../.vitepress/components/tools/Base64Tool.vue";
 </script>
 [//]: # (@formatter:on)
 
