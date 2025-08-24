@@ -1,6 +1,8 @@
 ---
 aside: false
 pageClass: custom-page
+next: false
+prev: false
 ---
 
 ![Hack the Box](/ctf/hack-the-box/machines/banner.png){style="display: block; margin: auto; border-radius: 1rem;"}
