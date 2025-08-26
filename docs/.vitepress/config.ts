@@ -148,6 +148,7 @@ export default defineConfig({
                                 items: [
                                     createMachineEntry("Lame", "lame"),
                                     createMachineEntry("Legacy", "legacy"),
+                                    createMachineEntry("Devel", "devel"),
                                     createMachineEntry("Popcorn", "popcorn"),
                                     createMachineEntry("Cronos", "cronos"),
                                     createMachineEntry("Bank", "bank"),
