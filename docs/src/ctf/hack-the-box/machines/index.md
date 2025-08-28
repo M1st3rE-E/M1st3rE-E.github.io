@@ -22,6 +22,7 @@ This section contains write-ups for machines from the [Hack the Box](https://app
 |  48   | [Blocky](https://app.hackthebox.com/machines/48)      | Easy       | [...](./blocky)      |
 |  192  | [Writeup](https://app.hackthebox.com/machines/192)    | Easy       | [...](./writeup)     |
 |  351  | [Cap](https://app.hackthebox.com/machines/351)        | Easy       | [...](./cap)         |
+|  400  | [Antique](https://app.hackthebox.com/machines/400)    | Easy       | [...](./antique)     |
 |  432  | [Paper](https://app.hackthebox.com/machines/432)      | Easy       | [...](./paper)       |
 |  603  | [BoardLight](https://app.hackthebox.com/machines/603) | Easy       | [...](./board-light) |
 |  631  | [Chemistry](https://app.hackthebox.com/machines/631)  | Easy       | [...](./chemistry)   |

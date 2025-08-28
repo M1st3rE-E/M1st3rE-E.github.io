@@ -157,6 +157,7 @@ export default defineConfig({
                                     createMachineEntry("Blocky", "blocky"),
                                     createMachineEntry("Writeup", "writeup"),
                                     createMachineEntry("Cap", "cap"),
+                                    createMachineEntry("Antique", "antique"),
                                     createMachineEntry("Paper", "paper"),
                                     createMachineEntry("BoardLight", "board-light"),
                                     createMachineEntry("Chemistry", "chemistry"),
