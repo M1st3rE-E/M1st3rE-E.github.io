@@ -13,6 +13,9 @@ This section contains write-ups for machines from the [Hack the Box](https://app
 | :---: | ----------------------------------------------------- | ---------- | -------------------- |
 |  1    | [Lame](https://app.hackthebox.com/machines/1)         | Easy       | [...](./lame)        |
 |  2    | [Legacy](https://app.hackthebox.com/machines/2)       | Easy       | [...](./legacy)      |
+|  3    | [Devel](https://app.hackthebox.com/machines/3)        | Easy       | [...](./devel)       |
+|  4    | [Popcorn](https://app.hackthebox.com/machines/4)      | Easy       | [...](./popcorn)     |
+|  5    | [Beep](https://app.hackthebox.com/machines/5)         | Easy       | [...](./beep)        |
 |  11   | [Cronos](https://app.hackthebox.com/machines/11)      | Easy       | [...](./cronos)      |
 |  26   | [Bank](https://app.hackthebox.com/machines/26)        | Easy       | [...](./bank)        |
 |  48   | [Blocky](https://app.hackthebox.com/machines/48)      | Easy       | [...](./blocky)      |
