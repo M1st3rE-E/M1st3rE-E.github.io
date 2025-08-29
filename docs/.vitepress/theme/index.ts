@@ -26,17 +26,39 @@ export default {
 	},
 	setup() {
 		const route = useRoute();
-		const initZoom = () => {
-			mediumZoom(".content-container img:not(.owned-icon):not(.owned-right-container img)", { 
-				background: "var(--vp-c-bg)" 
-			});
-		};
-		onMounted(() => {
-			initZoom();
-		});
+        let zoom: ReturnType<typeof mediumZoom> | null = null
+
+        const applyZoom = () => {
+            if (zoom) {
+                zoom.detach()
+                zoom = null
+            }
+
+            const selector = [
+                ".vp-doc :not(a) > img",
+                ".content-container img"
+            ].join(",")
+
+            zoom = mediumZoom(selector, {
+                background: getComputedStyle(document.documentElement)
+                .getPropertyValue("--vp-c-bg")
+                .trim() || undefined
+            })
+
+            const exclude = document.querySelectorAll([
+                ".no-zoom",
+                "[data-no-zoom]",
+                ".owned-icon",
+                ".owned-right-container img"
+            ].join(","))
+
+            if (exclude.length) zoom.detach(exclude)
+        };
+
+		onMounted(() => nextTick(() => applyZoom()));
 		watch(
 			() => route.path,
-			() => nextTick(() => initZoom())
+			() => nextTick(() => applyZoom())
 		);
 	},
 } satisfies Theme;

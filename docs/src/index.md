@@ -4,6 +4,7 @@ hero:
   text: "Pentest Everything is a VitePress Site, where I post my notes and writeups on various topics."
 aside: false
 pageClass: custom-page
+next: false
 ---
 <!-- markdownlint-disable MD033 MD041 -->
 
