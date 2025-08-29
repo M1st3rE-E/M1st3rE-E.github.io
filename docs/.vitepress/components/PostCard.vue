@@ -2,7 +2,7 @@
     <a :href="post.path" class="post-card"
         :class="post.type.toLowerCase().replaceAll(' ', '-') + (post.image?.includes('/icon/') ? '-icon' : '')">
         <div class="post-image">
-            <img :src="post.image ?? postImage" :alt="post.title" :style="{ transform: post.path.includes('machines') ? 'translateY(50px)' : 'none' }" />
+            <img :src="post.image ?? postImage" :alt="post.title" :style="{ transform: post.path.includes('machines') ? 'translateY(50px)' : 'none' }" data-zoomable="false" />
         </div>
         <div class="post-content">
             <div class="post-type" :style="{ color: postTypeColor, '--before-color': postTypeColor }">{{ post.type }}
