@@ -5,6 +5,7 @@ hero:
 aside: false
 pageClass: custom-page
 ---
+<!-- markdownlint-disable MD033 MD041 -->
 
 <script setup>
     import LastPosts from "../.vitepress/components/LastPosts.vue";
