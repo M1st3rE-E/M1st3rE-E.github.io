@@ -151,6 +151,7 @@ export default defineConfig({
                                     createMachineEntry("Devel", "devel"),
                                     createMachineEntry("Popcorn", "popcorn"),
                                     createMachineEntry("Beep", "beep"),
+                                    createMachineEntry("Optimum", "optimum"),
                                     createMachineEntry("Cronos", "cronos"),
                                     createMachineEntry("October", "october"),
                                     createMachineEntry("Bank", "bank"),
