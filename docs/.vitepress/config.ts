@@ -200,6 +200,7 @@ export default defineConfig({
                             { text: "Bounty Hacker", link: "/ctf/tryhackme/bounty-hacker" },
                             { text: "Neighbour", link: "/ctf/tryhackme/neighbour" },
                             { text: "Compiled", link: "/ctf/tryhackme/compiled" },
+                            { text: "Brooklyn Nine Nine", link: "/ctf/tryhackme/brooklyn-nine-nine" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },

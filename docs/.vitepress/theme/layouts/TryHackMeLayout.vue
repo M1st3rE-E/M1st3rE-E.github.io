@@ -3,7 +3,7 @@
         <img :src="frontmatter.banner || '/icon/tryhackme/banner-default.png'" alt="Room Banner" class="room-banner" />
         <div class="room-card-background"></div>
         <div style="display: flex; align-items: center; gap: 1rem;">
-            <img class="room-icon" :src="frontmatter.icon" alt="Room Icon" />
+            <img class="room-icon no-zoom" :src="frontmatter.icon" alt="Room Icon" />
             <div style="display: flex; flex-direction: column; justify-content: center;">
                 <h2 class="room-title">{{ frontmatter.title }}</h2>
                 <p class="room-description">{{ frontmatter.description }}</p>
