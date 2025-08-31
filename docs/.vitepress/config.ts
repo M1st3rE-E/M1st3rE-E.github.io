@@ -178,6 +178,7 @@ export default defineConfig({
                         collapsed: true,
                         link: "/ctf/tryhackme",
                         items: [
+                            { text: "Crack the Hash", link: "/ctf/tryhackme/crack-the-hash" },
                             { text: "Light", link: "/ctf/tryhackme/light" },
                             { text: "Lo-Fi", link: "/ctf/tryhackme/lo-fi" },
                             { text: "Capture", link: "/ctf/tryhackme/capture" },
