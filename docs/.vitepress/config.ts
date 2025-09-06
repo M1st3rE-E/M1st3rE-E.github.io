@@ -181,6 +181,7 @@ export default defineConfig({
                             { text: "Crack the Hash", link: "/ctf/tryhackme/crack-the-hash" },
                             { text: "Mr. Robot CTF", link: "/ctf/tryhackme/mr-robot-ctf" },
                             { text: "Golden Eye", link: "/ctf/tryhackme/golden-eye" },
+                            { text: "Jurassic Park", link: "/ctf/tryhackme/jurassic-park" },
                             { text: "Light", link: "/ctf/tryhackme/light" },
                             { text: "Lo-Fi", link: "/ctf/tryhackme/lo-fi" },
                             { text: "Capture", link: "/ctf/tryhackme/capture" },

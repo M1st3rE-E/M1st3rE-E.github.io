@@ -1,0 +1,10 @@
+<svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="signal-bars-good"
+    class="svg-inline--fa fa-signal-bars-good " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+    <g class="fa-duotone-group">
+        <path style="opacity: .4;" fill="#ff5b67"
+            d="M512 48c0-26.5 21.5-48 48-48s48 21.5 48 48l0 416c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-416z"></path>
+        <path fill="#ff5b67"
+            d="M400 128c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48s48-21.5 48-48l0-288c0-26.5-21.5-48-48-48zM192 304l0 160c0 26.5 21.5 48 48 48s48-21.5 48-48l0-160c0-26.5-21.5-48-48-48s-48 21.5-48 48zM32 432l0 32c0 26.5 21.5 48 48 48s48-21.5 48-48l0-32c0-26.5-21.5-48-48-48s-48 21.5-48 48z">
+        </path>
+    </g>
+</svg>
