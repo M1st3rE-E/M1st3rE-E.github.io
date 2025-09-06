@@ -2,7 +2,7 @@
 clayout: ctf
 title: Golden Eye
 type: TryHackMe
-date: 2025-08-30
+date: 2025-09-04
 level: Medium
 icon: /ctf/tryhackme/golden-eye/icon-room.png
 image: /ctf/tryhackme/golden-eye/icon-room.png

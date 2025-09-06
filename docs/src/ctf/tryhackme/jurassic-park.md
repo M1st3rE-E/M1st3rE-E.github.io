@@ -2,7 +2,7 @@
 clayout: ctf
 title: Jurassic Park
 type: TryHackMe
-date: 2025-04-12
+date: 2025-09-06
 level: Hard
 icon: /ctf/tryhackme/jurassic-park/icon-room.png
 image: /ctf/tryhackme/jurassic-park/icon-room.png
