@@ -216,5 +216,5 @@ root@tenten:/home/takis# id
 uid=0(root) gid=0(root) groups=0(root)
 ```
 
-> [!NOTE] Root flag
+> [!IMPORTANT] Root flag
 > `/root/root.txt`
