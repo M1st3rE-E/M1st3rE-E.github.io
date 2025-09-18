@@ -154,6 +154,7 @@ export default defineConfig({
                                     createMachineEntry("Optimum", "optimum"),
                                     createMachineEntry("Bastard", "bastard"),
                                     createMachineEntry("Tenten", "tenten"),
+                                    createMachineEntry("Arctic", "arctic"),
                                     createMachineEntry("Cronos", "cronos"),
                                     createMachineEntry("October", "october"),
                                     createMachineEntry("Bank", "bank"),
