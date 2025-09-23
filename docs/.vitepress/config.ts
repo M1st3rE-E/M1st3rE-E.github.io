@@ -4,7 +4,7 @@ import { writeFileSync } from "fs";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 import { createContentLoader, defineConfig, type SiteConfig } from "vitepress";
 
-const hostname: string = "https://m1st3re-e.github.io";
+const hostname: string = "https://retherszu.github.io";
 
 // Helper function to create machine entries with icons
 function createMachineEntry(name: string, slug: string) {
@@ -261,7 +261,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/M1st3rE-E" },
+            { icon: "github", link: "https://github.com/RetherSzu" },
         ],
     },
 });
