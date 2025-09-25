@@ -34,6 +34,8 @@ const roomLevelColor = computed(() => {
             return "#FFBB45"
         case "hard":
             return "#FF5B67"
+        case "info":
+            return "#719cf9"
         default:
             return "#FFFFFF"
     }

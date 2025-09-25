@@ -209,6 +209,7 @@ export default defineConfig({
                             { text: "Neighbour", link: "/ctf/tryhackme/neighbour" },
                             { text: "Compiled", link: "/ctf/tryhackme/compiled" },
                             { text: "Brooklyn Nine Nine", link: "/ctf/tryhackme/brooklyn-nine-nine" },
+                            { text: "Bypass Disable Functions", link: "/ctf/tryhackme/bypass-disable-functions" },
                         ],
                     },
                     // { text: "Introduction", link: "/penetration-testing" },
