@@ -186,6 +186,7 @@ export default defineConfig({
                             { text: "Golden Eye", link: "/ctf/tryhackme/golden-eye" },
                             { text: "Jurassic Park", link: "/ctf/tryhackme/jurassic-park" },
                             { text: "Heartbleed", link: "/ctf/tryhackme/heart-bleed" },
+                            { text: "UltraTech", link: "/ctf/tryhackme/ultra-tech" },
                             { text: "Light", link: "/ctf/tryhackme/light" },
                             { text: "Lo-Fi", link: "/ctf/tryhackme/lo-fi" },
                             { text: "Capture", link: "/ctf/tryhackme/capture" },
