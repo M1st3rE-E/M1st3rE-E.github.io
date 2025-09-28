@@ -37,3 +37,5 @@ This section contains write-ups for machines from the [Hack the Box](https://app
 |  653  | [Code](https://app.hackthebox.com/machines/653)       | Easy       | [...](./code)        |
 |  656  | [Noctural](https://app.hackthebox.com/machines/656)   | Easy       | [...](./noctural)    |
 |  660  | [Planning](https://app.hackthebox.com/machines/660)   | Easy       | [...](./planning)    |
+|  721  | [Soulmate](https://app.hackthebox.com/machines/721)   | Easy       | [...](./soulmate)    |
+|  736  | [Expressway](https://app.hackthebox.com/machines/736) | Easy       | [...](./expressway)  |
