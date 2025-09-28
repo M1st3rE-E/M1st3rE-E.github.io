@@ -172,6 +172,8 @@ export default defineConfig({
                                     createMachineEntry("Code", "code"),
                                     createMachineEntry("Noctural", "noctural"),
                                     createMachineEntry("Planning", "planning"),
+                                    createMachineEntry("Soulmate", "soulmate"),
+                                    createMachineEntry("Expressway", "expressway"),
                                 ],
                             },
                         ],
