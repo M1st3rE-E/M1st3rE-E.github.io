@@ -10,7 +10,7 @@ description: Practise using tools such as dirbuster, hydra, nmap, nikto and meta
 ctf-link: https://tryhackme.com/room/toolsrus
 ---
 
-# Challenge Overview
+## Challenge Overview
 
 In this challenge, we need to find hidden directories, users, and services on a target machine. By scanning for open ports and exploring the website, we discover important information like usernames and passwords. After gaining access to protected areas, we exploit a vulnerable Tomcat server to get a shell on the machine. The final goal is to find the flag located in the root directory.
 

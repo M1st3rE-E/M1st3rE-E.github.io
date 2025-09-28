@@ -15,3 +15,5 @@ This section contains write-ups for challenges from the [Try Hack Me](https://tr
 |   3   | [Golden Eye](https://tryhackme.com/room/goldeneye)        | Medium     | [...](./golden-eye)     |
 |   4   | [Jurassic Park](https://tryhackme.com/room/jurassicpark)  | Hard       | [...](./jurassic-park)  |
 |   5   | [Heartbleed](https://tryhackme.com/room/heartbleed)       | Easy       | [...](./heart-bleed)    |
+|   7   | [UltraTech](https://tryhackme.com/room/ultratech)         | Medium     | [...](./ultra-tech)     |
+|   8   | [ToolsRus](https://tryhackme.com/room/toolsrus)           | Easy       | [...](./tools-rus)      |

@@ -3,7 +3,7 @@ clayout: ctf
 title: UltraTech
 type: TryHackMe
 date: 2025-09-27
-level: Easy
+level: Medium
 icon: /ctf/tryhackme/ultra-tech/icon-room.png
 image: /ctf/tryhackme/ultra-tech/icon-room.png
 description: UltraTech
