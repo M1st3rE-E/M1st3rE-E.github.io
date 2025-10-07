@@ -8,12 +8,15 @@ next: false
 
 This section contains write-ups for challenges from the [Try Hack Me](https://tryhackme.com/) platform.
 
-|   #   | Challenge                                                 | Difficulty | Write-up                |
-| :---: | --------------------------------------------------------- | ---------- | ----------------------- |
-|   1   | [Crack the Hash](https://tryhackme.com/room/crackthehash) | Easy       | [...](./crack-the-hash) |
-|   2   | [Mr. Robot CTF](https://tryhackme.com/room/mrrobot)       | Medium     | [...](./mr-robot-ctf)   |
-|   3   | [Golden Eye](https://tryhackme.com/room/goldeneye)        | Medium     | [...](./golden-eye)     |
-|   4   | [Jurassic Park](https://tryhackme.com/room/jurassicpark)  | Hard       | [...](./jurassic-park)  |
-|   5   | [Heartbleed](https://tryhackme.com/room/heartbleed)       | Easy       | [...](./heart-bleed)    |
-|   7   | [UltraTech](https://tryhackme.com/room/ultratech)         | Medium     | [...](./ultra-tech)     |
-|   8   | [ToolsRus](https://tryhackme.com/room/toolsrus)           | Easy       | [...](./tools-rus)      |
+|   #   | Challenge                                                      | Difficulty | Write-up                  |
+| :---: | -------------------------------------------------------------- | ---------- | ------------------------- |
+|   1   | [Crack the Hash](https://tryhackme.com/room/crackthehash)      | Easy       | [...](./crack-the-hash)   |
+|   2   | [Mr. Robot CTF](https://tryhackme.com/room/mrrobot)            | Medium     | [...](./mr-robot-ctf)     |
+|   3   | [Golden Eye](https://tryhackme.com/room/goldeneye)             | Medium     | [...](./golden-eye)       |
+|   4   | [Jurassic Park](https://tryhackme.com/room/jurassicpark)       | Hard       | [...](./jurassic-park)    |
+|   5   | [Heartbleed](https://tryhackme.com/room/heartbleed)            | Easy       | [...](./heart-bleed)      |
+|   7   | [UltraTech](https://tryhackme.com/room/ultratech)              | Medium     | [...](./ultra-tech)       |
+|   8   | [ToolsRus](https://tryhackme.com/room/toolsrus)                | Easy       | [...](./tools-rus)        |
+|  12   | [StuxCTF](https://tryhackme.com/room/stuxctf)                  | Medium     | [...](./stux-ctf)         |
+|  14   | [Basic Pentesting](https://tryhackme.com/room/basicpentesting) | Easy       | [...](./basic-pentesting) |
+|  16   | [Simple CTF](https://tryhackme.com/room/easyctf)               | Easy       | [...](./simple-ctf)       |
